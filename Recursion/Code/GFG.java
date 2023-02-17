@@ -1,6 +1,3 @@
-package Recursion;
-// package Recursion;
-
 // A Java program to demonstrate working of
 // recursion
 class GFG {
