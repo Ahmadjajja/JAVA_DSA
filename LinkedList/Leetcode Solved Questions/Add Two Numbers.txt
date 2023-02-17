@@ -1,0 +1,14 @@
+https://leetcode.com/problems/add-two-numbers/
+
+
+Related Information:
+You may assume the two numbers do not contain any leading zero, except the number 0 itself
+
+Explanation:
+
+The reason why this is important to specify is that in some programming languages, 
+a number with a leading zero is interpreted as an octal number (base 8), rather 
+than a decimal number (base 10). This can lead to unexpected results and errors in 
+calculations, especially if the programmer is not aware of this behavior. To avoid 
+this issue, it's best to ensure that numbers are written in decimal form without 
+any leading zeros, unless the number is actually meant to be interpreted as an octal number.
