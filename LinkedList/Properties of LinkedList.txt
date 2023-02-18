@@ -1,0 +1,42 @@
+Variable size: 
+
+Linked lists can change in size during runtime, meaning that new nodes
+can be added or removed as needed. This is because each node in a linked list contains
+a pointer to the next node, so the size of the list is not determined by a fixed 
+number of memory locations like an array.
+
+Non-contiguous memory: 
+
+Unlike arrays which are stored in contiguous blocks of memory,
+linked lists are made up of individual nodes that are scattered throughout memory. 
+Each node in a linked list contains a reference to the next node, so the entire list
+can be accessed by traversing from one node to the next.
+
+Dynamic memory allocation: 
+
+Linked lists require dynamic memory allocation to create
+and remove nodes during runtime. This means that nodes are allocated as needed and 
+can be deallocated when they are no longer needed.
+
+Insertion and deletion: 
+
+Adding or removing a node from a linked list is relatively 
+easy, as long as you have a reference to the previous node in the list. This is because
+the previous node's "next" pointer can be updated to point to the new node, or to 
+skip over a deleted node.
+
+Random access: 
+
+Unlike arrays, which can be accessed randomly by index, linked lists 
+require traversal to access a specific node. This means that accessing a node at a 
+specific index in a linked list can take O(n) time, where n is the size of the list.
+However, some implementations of linked lists, such as doubly linked lists, allow 
+for efficient traversal in both directions.
+
+Efficiency: 
+
+The efficiency of a linked list depends on the specific implementation 
+and the type of operations being performed. Generally, linked lists are efficient 
+for insertion and deletion operations, but less efficient for random access operations. 
+They are also less efficient in terms of memory usage compared to arrays, as they require
+additional memory for each node's pointer.

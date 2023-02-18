@@ -1,0 +1,24 @@
+Dynamic allocation is a concept in programming where memory is allocated at runtime, 
+rather than at compile-time. This means that memory is allocated during the execution
+of the program, and can be resized as needed during the program's execution.
+
+Dynamic allocation is used to create data structures that can grow or shrink in size
+during the program's execution, without the need for pre-allocation of memory. This 
+is especially useful for creating data structures such as linked lists, trees, 
+and graphs, which can change in size during the program's execution.
+
+In most programming languages, dynamic allocation is performed using a set of memory
+allocation functions, such as malloc, calloc, or realloc. These functions allocate a
+block of memory of a specified size, and return a pointer to the first byte of the block.
+The programmer can then use this pointer to access the allocated memory.
+
+One of the benefits of dynamic allocation is that it can prevent the program from running
+out of memory. By allocating memory dynamically, the program can adapt to the available
+memory at runtime and avoid crashing due to a lack of memory. Additionally, dynamic 
+allocation can help reduce the overall memory usage of the program, as it allows the 
+program to only allocate memory when it is needed, rather than pre-allocating large 
+amounts of memory that may not be used.
+
+However, dynamic allocation can also introduce memory management issues, such as memory 
+leaks and fragmentation, if not used carefully. It is important to properly manage dynamically
+allocated memory to avoid these issues and ensure the program is using memory efficiently.
