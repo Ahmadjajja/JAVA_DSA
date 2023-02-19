@@ -1,2 +1,2 @@
 # JAVA_DSA
-My DSA Java Joureny
+My DSA Java Journey
