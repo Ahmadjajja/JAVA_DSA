@@ -39,4 +39,4 @@ The efficiency of a linked list depends on the specific implementation
 and the type of operations being performed. Generally, linked lists are efficient 
 for insertion and deletion operations, but less efficient for random access operations. 
 They are also less efficient in terms of memory usage compared to arrays, as they require
-additional memory for each node's pointer.
+additional memory for each node's pointer..
