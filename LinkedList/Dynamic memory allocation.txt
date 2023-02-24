@@ -21,4 +21,4 @@ amounts of memory that may not be used.
 
 However, dynamic allocation can also introduce memory management issues, such as memory 
 leaks and fragmentation, if not used carefully. It is important to properly manage dynamically
-allocated memory to avoid these issues and ensure the program is using memory efficiently..
+allocated memory to avoid these issues and ensure the program is using memory efficiently.
