@@ -7,3 +7,6 @@ https://leetcode.com/problems/check-if-the-sentence-is-pangram/submissions/90880
 11.) 1773. Count Items Matching a Rule
 https://leetcode.com/problems/count-items-matching-a-rule/submissions/908833413/
 
+18.) 989. Add to Array-Form of Integer
+https://leetcode.com/problems/add-to-array-form-of-integer/submissions/909345886/
+
