@@ -1,31 +1,20 @@
-
-
-import java.math.BigInteger;
-import java.util.*;
+import java.util.Arrays;
 
 public class testingQs {
-    static public List<Integer> addToArrayForm(int[] num, int k) {
-        String concatNums = "";
-        String sum;
-        ArrayList<Integer> targetArrayList = new ArrayList<Integer>();
-        for(int i = 0, count = 0; i < num.length; i++){
-            if(count == 0 && num[i] == 0){
-                
-            } else {
-                concatNums += Integer.toString(num[i]);
-                count++;
+    static public int[][] flipAndInvertImage(int[][] image) {
+        int[][] flipImage = new int[image.length][];
+        for(int i = 0; i < image.length; i++){
+            int[] temp = new int[image[i].length];
+            for(int index = 0; index < image[i].length; index++){
+                temp[index] = (image[i][(image[i].length - 1) - index]) == 0 ? 1: 0 ;
             }
+            flipImage[i] = temp;
         }
-        // sum = Integer.toString(Integer.parseInt(concatNums) + k);
-        sum = new BigInteger((concatNums.toString().length() < 1 ? "0": concatNums.toString())).add(BigInteger.valueOf(k)).toString();
-        for(int i = 0; i< sum.length(); i++){
-            targetArrayList.add(Character.getNumericValue(sum.charAt(i)));
-        }
-        return targetArrayList;
+        return flipImage;
     }
 
     public static void main(String[] args) {
-        int[] arr = {0};
-        System.out.println(addToArrayForm(arr, 3));
+        int[][] arr = {{1,1,0},{1,0,1},{0,0,0}};
+        System.out.println(Arrays.toString(flipAndInvertImage(arr)[2]));
     }
 }
