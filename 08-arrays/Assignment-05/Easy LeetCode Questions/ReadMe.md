@@ -1,6 +1,6 @@
 ## Leadcode Solved Questions
 
-### Question 09 &nbsp; <a href="https://leetcode.com/problems/create-target-array-in-the-given-order/submissions/908802221/" target="_blank" style="font-size: 16px;">_1389. Create Target Array in the Given Order_</a> <br/>
+### Question 09 #### <a href="https://leetcode.com/problems/create-target-array-in-the-given-order/submissions/908802221/" target="_blank" style="font-size: 16px;">_1389. Create Target Array in the Given Order_</a> <br/>
 
 ### Question 10 <a href="https://leetcode.com/problems/check-if-the-sentence-is-pangram/submissions/908808758/" target="_blank" style="font-size: 16px;">_1832. Check if the Sentence Is Pangram_</a> <br/>
 
