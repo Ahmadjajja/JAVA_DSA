@@ -10,6 +10,8 @@
 
 **Question 13** <a href="https://leetcode.com/problems/flipping-an-image/submissions/913129095/" target="_blank" style="font-size: 16px;">_832. Flipping an Image_</a> <br/>
 
+**Question 14** <a href="https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/submissions/913841775/" target="_blank" style="font-size: 16px;">_1252. Cells with Odd Values in a Matrix_</a> <br/>
+
 **Question 15** <a href="https://leetcode.com/problems/matrix-diagonal-sum/submissions/913370203/" target="_blank" style="font-size: 16px;">_1572. Matrix Diagonal Sum_</a> <br/>
 
 **Question 16** <a href="https://leetcode.com/problems/count-items-matching-a-rule/submissions/908833413/" target="_blank" style="font-size: 16px;">_1295. Find Numbers with Even Number of Digits_</a> <br/>
@@ -18,7 +20,10 @@
 
 **Question 18** <a href="https://leetcode.com/problems/add-to-array-form-of-integer/submissions/909345886/" target="_blank" style="font-size: 16px;">_989. Add to Array-Form of Integer _</a> <br/>
 
+**Question 19** <a href="https://leetcode.com/problems/maximum-population-year/submissions/913916669/" target="_blank" style="font-size: 16px;">_1854. Maximum Population Year _</a> <br/>
+
 **Question 20** <a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/submissions/913769725/" target="_blank" style="font-size: 16px;">_ 1886. Determine Whether Matrix Can Be Obtained By Rotation_</a> <br/>
+
 
 
 
