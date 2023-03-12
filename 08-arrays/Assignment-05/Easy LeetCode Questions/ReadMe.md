@@ -1,6 +1,22 @@
 ## Leadcode Solved Questions
 
-**Question 09** <a href="https://leetcode.com/problems/create-target-array-in-the-given-order/submissions/908802221/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1389. Create Target Array in the Given Order_</a> <br/>
+**Question 01** <a href="https://leetcode.com/submissions/detail/906834554/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1920. Build Array from Permutation_</a> <br/>
+
+**Question 02** <a href="https://leetcode.com/submissions/detail/906851422/" target="_blank" style="font-size: 16px;">_1929. Concatenation of Array_</a> <br/>
+
+**Question 03** <a href="https://leetcode.com/submissions/detail/906856235/" target="_blank" style="font-size: 16px;">_1480. Running Sum of 1d Array_</a> <br/>
+
+**Question 04** <a href="https://leetcode.com/submissions/detail/906867414/" target="_blank" style="font-size: 16px;">_1672. Richest Customer Wealth_</a> <br/>
+
+**Question 05** <a href="https://leetcode.com/submissions/detail/906871242/" target="_blank" style="font-size: 16px;">_1470. Shuffle the Array_</a> <br/>
+
+**Question 06** <a href="https://leetcode.com/submissions/detail/906889971/" target="_blank" style="font-size: 16px;">_1431. Kids With the Greatest Number of Candies_</a> <br/>
+
+**Question 07** <a href="https://leetcode.com/submissions/detail/906982191/" target="_blank" style="font-size: 16px;">_1512. Number of Good Pairs_</a> <br/>
+
+**Question 08** <a href="https://leetcode.com/submissions/detail/906995115/" target="_blank" style="font-size: 16px;">_1365. How Many Numbers Are Smaller Than the Current Number_</a> <br/>
+
+**Question 09** <a href="https://leetcode.com/problems/create-target-array-in-the-given-order/submissions/908802221/" target="_blank" style="font-size: 16px;display:inline-block;">_1389. Create Target Array in the Given Order_</a> <br/>
 
 **Question 10** <a href="https://leetcode.com/problems/check-if-the-sentence-is-pangram/submissions/908808758/" target="_blank" style="font-size: 16px;">_1832. Check if the Sentence Is Pangram_</a> <br/>
 
