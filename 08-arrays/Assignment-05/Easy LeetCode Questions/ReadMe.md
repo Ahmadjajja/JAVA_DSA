@@ -40,6 +40,11 @@
 
 **(94) Question 20** <a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/submissions/913769725/" target="_blank" style="font-size: 16px;">_1886. Determine Whether Matrix Can Be Obtained By Rotation_</a> <br/>
 
+**(95) Question 21** <a href="https://leetcode.com/problems/two-sum/submissions/914283903/" target="_blank" style="font-size: 16px;">_1. Two Sum_</a> <br/>
+
+**(96) Question 22** <a href="https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/submissions/914295068/" target="_blank" style="font-size: 16px;">_1304. Find N Unique Integers Sum up to Zero_</a> <br/>
+
+**(97) Question 23** <a href="https://leetcode.com/problems/lucky-numbers-in-a-matrix/submissions/914309520/" target="_blank" style="font-size: 16px;">_1380. Lucky Numbers in a Matrix_</a> <br/>
 
 
 
