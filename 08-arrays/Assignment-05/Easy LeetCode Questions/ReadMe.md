@@ -54,7 +54,7 @@
 
 **(101) Question 27** <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/915380691/" target="_blank" style="font-size: 16px;">_26. Remove Duplicates from Sorted Array_</a> <br/> 
 
-**(101) Question 28** <a href="https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/submissions/915571614/" target="_blank" style="font-size: 16px;">_1217. Minimum Cost to Move Chips to The Same Position_</a> <br/> 
+**(101) Question 28** <a href="https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/submissions/915571614/" target="_blank" style="font-size: 16px;">_1217. Minimum Cost to Move Chips to The Same Position_</a> <br/>  
 
 
 
