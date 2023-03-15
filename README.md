@@ -12,7 +12,7 @@ Complete the lectures and assignments from 05 - 08
 ## Week 1,2,3 Searching and Sorting
 Complete the lectures and assignments from 09 - 11
 
-## Week 4 Srings
+## Week 4 Strings
 Complete the lectures and assignments from 12
 
 # Month 3
