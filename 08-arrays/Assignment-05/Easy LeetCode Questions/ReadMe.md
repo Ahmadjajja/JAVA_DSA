@@ -52,7 +52,7 @@
 
 **(100) Question 26** <a href="https://leetcode.com/problems/plus-one/submissions/915366676/" target="_blank" style="font-size: 16px;">_66. Plus One_</a> <br/>
 
-**(101) Question 27** <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/915380691/" target="_blank" style="font-size: 16px;">_26. Remove Duplicates from Sorted Array_</a> <br/>
+**(101) Question 27** <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/915380691/" target="_blank" style="font-size: 16px;">_26. Remove Duplicates from Sorted Array_</a> <br/> 
 
 
 
