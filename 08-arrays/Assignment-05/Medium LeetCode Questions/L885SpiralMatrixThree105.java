@@ -14,7 +14,7 @@ public class L885SpiralMatrixThree105 {
         int size = rows * cols;
         int[][] matrix = new int[size][2];
         int i = rStart, j = cStart;
-        ArrayList<int[]> result = new ArrayList<>();
+        ArrayList<int[]> result = new ArrayList<int[]>();
         result.add(new int[] { i, j });
         int diri = 0, dirj = 1;
         int totalCells = 1;
