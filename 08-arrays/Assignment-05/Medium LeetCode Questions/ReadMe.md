@@ -10,3 +10,5 @@
 
 **(107) Question 05** <a href="https://leetcode.com/problems/product-of-array-except-self/submissions/916639034/" target="_blank" style="font-size: 16px;">_238. Product of Array Except Self_</a> <br/>
 
+**(108) Question 06** <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/916691826/" target="_blank" style="font-size: 16px;">_34. Find First and Last Position of Element in Sorted Array_</a> <br/>
+
