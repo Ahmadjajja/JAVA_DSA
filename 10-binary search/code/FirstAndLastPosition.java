@@ -1,11 +1,13 @@
 package com.kunal;
 
+import java.util.Arrays;
+
 public class FirstAndLastPosition {
     public static void main(String[] args) {
-
+        System.out.println(Arrays.toString(searchRange(new int[]{2,2,3,4,4,5,5,6,7,8,8,7,7}, 4)));
     }
 
-    public int[] searchRange(int[] nums, int target) {
+    static int[] searchRange(int[] nums, int target) {
 
         int[] ans = {-1, -1};
         // check for first occurrence if target first
@@ -17,7 +19,7 @@ public class FirstAndLastPosition {
     }
 
     // this function just returns the index value of target
-    int search(int[] nums, int target, boolean findStartIndex) {
+    static int search(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
@@ -32,8 +34,8 @@ public class FirstAndLastPosition {
                 start = mid + 1;
             } else {
                 // potential ans found
-                ans = mid;
-                if (findStartIndex) {
+                ans = mid;     // 4, 3, 3
+                if (findStartIndex) {   // That is the main logic here
                     end = mid - 1;
                 } else {
                     start = mid + 1;
