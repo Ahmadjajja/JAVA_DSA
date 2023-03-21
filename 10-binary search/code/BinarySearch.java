@@ -26,7 +26,7 @@ public class BinarySearch {
                 start = mid + 1;
             } else {
                 // ans found
-                return mid;
+                return mid; 
             }
         }
         return -1;
