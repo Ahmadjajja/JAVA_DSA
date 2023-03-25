@@ -9,9 +9,9 @@ import java.util.ArrayList;
 
 
 public class L1499MaxValueOfEquation113 {
-    public static int findMaxValueOfEquation(int[][] points, int k) {
+    static int findMaxValueOfEquation(int[][] points, int k) {
         int max = 0;
-        ArrayList<Integer> list = new ArrayList<Integer>();
+    ArrayList<Integer> list = new ArrayList<Integer>();
         int count = 0;
         System.out.println(points.length - 1);
         for (int i = 0; i < points.length - 1; i++) {
