@@ -10,6 +10,8 @@
 
 **(120) Question 05** <a href="https://leetcode.com/problems/valid-perfect-square/submissions/923858332/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_367. Valid Perfect Square_</a> <br/>
 
+**(121) Question 06** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">_441. Arranging Coins_</a> <br/>
+
 
 
 
