@@ -4,6 +4,8 @@
 
 **(117) Question 02** <a href="https://leetcode.com/problems/guess-number-higher-or-lower/submissions/923785045/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_374. Guess Number Higher or Lower_</a> <br/>
 
+**(118) Question 03** <a href="https://leetcode.com/problems/first-bad-version/submissions/923813018/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_278. First Bad Version_</a> <br/>
+
 
 
 
