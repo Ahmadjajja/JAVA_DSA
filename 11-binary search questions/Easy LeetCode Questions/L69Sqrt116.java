@@ -4,15 +4,31 @@
 
 // For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 
-/**
- * L69Sqrt116
- */
+// In other words, the square root of x is the value that, when multiplied by itself, results in x. 
+
 public class L69Sqrt116 {
     public static int mySqrt(int x) {
-        return 22;
+        int start = 0, end = x;
+        long mid = start + (end - start) / 2;
+        while (start <= end) {
+            mid = start + (end - start) / 2;
+            if ((mid * mid) > x) {
+                end = (int) (mid - 1);
+            } else if ((mid * mid) < x) {
+                if (((mid + 1) * (mid + 1) > x)) {
+                    return (int) mid;
+                } else {
+                    start = (int) (mid + 1);
+                }
+            } else {
+                return (int) mid;
+            }
+        }
+        return start;
+
     }
+
     public static void main(String[] args) {
-        System.out.println(mySqrt(4));
+        System.out.println(mySqrt(2147395599));
     }
-    
 }
