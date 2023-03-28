@@ -2,6 +2,8 @@
 
 **(116) Question 01** <a href="https://leetcode.com/problems/sqrtx/submissions/923762747/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_69. Sqrt(x)_</a> <br/>
 
+**(117) Question 02** <a href="https://leetcode.com/problems/guess-number-higher-or-lower/submissions/923785045/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_374. Guess Number Higher or Lower_</a> <br/>
+
 
 
 
