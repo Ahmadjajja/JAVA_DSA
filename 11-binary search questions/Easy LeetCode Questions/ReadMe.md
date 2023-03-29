@@ -17,7 +17,7 @@
 **(123) Question 08** <a href="https://leetcode.com/problems/kth-missing-positive-number/submissions/924202772/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1539. Kth Missing Positive Number_</a> <br/> 
  
 **(124) Question 09** <a href="https://leetcode.com/problems/search-insert-position/submissions/924263962/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_35. Search Insert Position_</a> <br/> 
-
-
+ 
+**(125) Question 10** <a href="https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_852. Peak Index in a Mountain Array_</a> <br/> 
 
 
