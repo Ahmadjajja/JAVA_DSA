@@ -19,6 +19,6 @@ public class L35SearchInsertPosition124 {
         return start;
     }
     public static void main(String[] args) {
-        System.out.println(searchInsert(new int[]{1,3,5,6}, 7));
+        System.out.println(searchInsert(new int[]{1,3,5,6}, 7)); 
     }
 }
