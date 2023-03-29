@@ -12,6 +12,8 @@
 
 **(121) Question 06** <a href="https://leetcode.com/problems/arranging-coins/submissions/924148378/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_441. Arranging Coins_</a> <br/>
 
+**(122) Question 07** <a href="https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/924172771/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_744. Find Smallest Letter Greater Than Target_</a> <br/>
+
 
 
 
