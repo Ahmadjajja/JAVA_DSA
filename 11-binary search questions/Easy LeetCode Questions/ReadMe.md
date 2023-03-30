@@ -26,7 +26,7 @@
  
 **(128) Question 13** <a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/submissions/924685248/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_350. Intersection of Two Arrays II_</a> <br/>
  
-<!-- **(129) Question 14** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">_888. Fair Candy Swap_</a> <br/> -->
+**(129) Question 14** <a href="https://leetcode.com/problems/fair-candy-swap/submissions/924959628/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_888. Fair Candy Swap_</a> <br/>
 
 
 
