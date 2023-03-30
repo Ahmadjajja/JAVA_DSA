@@ -29,6 +29,10 @@
 **(129) Question 14** <a href="https://leetcode.com/problems/fair-candy-swap/submissions/924959628/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_888. Fair Candy Swap_</a> <br/>
  
 **(130) Question 15** <a href="https://leetcode.com/problems/check-if-n-and-its-double-exist/submissions/924972338/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1346. Check If N and Its Double Exist_</a> <br/>
+ 
+**(131) Question 16** <a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1608. Special Array With X Elements Greater Than or Equal X_</a> <br/>
+ 
+**(132) Question 17** <a href="https://leetcode.com/problems/binary-search/submissions/924991631/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_704. Binary Search_</a> <br/>
 
 
 
