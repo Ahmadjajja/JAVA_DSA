@@ -15,6 +15,9 @@ public class L852PeakIndexInMountainArray125 {
         int start = 0, end = arr.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
+            if(arr.length == 1 || (arr.length - 1) == mid ){
+                return mid;
+            }
             if (arr[mid] > arr[mid + 1] && arr[mid] > arr[mid - 1]) {
                 return mid;
             }
@@ -28,6 +31,6 @@ public class L852PeakIndexInMountainArray125 {
     }
 
     public static void main(String[] args) {
-        System.out.println(peakIndexInMountainArray(new int[]{0,2,1,0}));
+        System.out.println(peakIndexInMountainArray(new int[]{1, 2}));
     }
 }
