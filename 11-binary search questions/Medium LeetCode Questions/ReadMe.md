@@ -9,3 +9,5 @@
 **(136) Question 04** <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/925504232/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_81. Search in Rotated Sorted Array II_</a> <br/>
  
 **(137) Question 05** <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/925539740/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_153. Find Minimum in Rotated Sorted Array_</a> <br/> 
+ 
+**(138) Question 06** <a href="https://leetcode.com/problems/find-peak-element/submissions/925566529/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_162. Find Peak Element_</a> <br/> 
