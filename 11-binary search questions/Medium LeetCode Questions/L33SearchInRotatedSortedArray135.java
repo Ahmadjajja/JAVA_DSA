@@ -33,6 +33,6 @@ public class L33SearchInRotatedSortedArray135 {
     }
 
     public static void main(String[] args) {
-        System.out.println(search(new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 1 }, 9));
+        System.out.println(search(new int[] { 2,5,6,0,0,1,2 }, 0));
     }
 }
