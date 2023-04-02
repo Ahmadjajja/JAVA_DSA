@@ -21,8 +21,8 @@ import java.util.Arrays;
 // -> declare two variable maxReduction (for storing reduction for calculating minimum absolute difference)
 //    and sum (for storing sum of Both arrays elements absolute difference )
 // -> iterate over both arrays to find absolute difference  and adding to sum variable
-// -> finding max reduction for each ith element through binary search and storing maxReduction in maxReduction variable
-// -> 
+// -> finding maxReduction for each ith element through binary search and storing maxReduction in maxReduction variable
+// -> subtracting max from maxReduction and return this ans .
 
 
 
