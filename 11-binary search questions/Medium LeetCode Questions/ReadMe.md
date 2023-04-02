@@ -17,3 +17,5 @@
 **(140) Question 08** <a href="https://leetcode.com/problems/reach-a-number/submissions/926246669/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_754. Reach a Number_</a> <br/>  
  
 **(141) Question 09** <a href="https://leetcode.com/problems/reach-a-number/submissions/926246669/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1802. Maximum Value at a Given Index in a Bounded Array_</a> <br/>  
+ 
+**(142) Question 10** <a href="https://leetcode.com/problems/koko-eating-bananas/submissions/926459423/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_875. Koko Eating Bananas_</a> <br/>  
