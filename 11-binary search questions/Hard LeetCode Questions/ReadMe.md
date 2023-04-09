@@ -9,3 +9,5 @@
 **(153) Question 04** <a href="https://www.geeksforgeeks.org/allocate-minimum-number-pages/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Book Allocation (Geek for Geeks)_</a> <br/> 
 
 **(154) Question 05** <a href="https://leetcode.com/problems/find-in-mountain-array/submissions/930958375/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1095. Find in Mountain Array_</a> <br/> 
+
+**(155) Question 06** <a href="https://leetcode.com/problems/find-in-mountain-array/submissions/930958375/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_315. Count of Smaller Numbers After Self_</a> <br/> 
