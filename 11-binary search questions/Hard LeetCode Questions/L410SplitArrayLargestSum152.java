@@ -37,32 +37,42 @@ public class L410SplitArrayLargestSum152 {
 
     // efficient approach
 
-    public static int splitArray(int[] nums, int k) {
-        int n = nums.length;
-        int left = Arrays.stream(nums).max().getAsInt();
-        int right = Arrays.stream(nums).sum();
-
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            int count = 1;
-            int sum = 0;
-            for (int num : nums) {
-                if (sum + num > mid) {
-                    count++;
-                    sum = num;
-                } else {
-                    sum += num;
-                }
-            }
-            if (count > k) {
-                left = mid + 1;
+    static int splitArray(int[] nums, int k) {
+        if (nums.length < k) {
+            return -1;
+        }
+        int sum = Arrays.stream(nums).sum();
+        int max = Arrays.stream(nums).max().getAsInt();
+        int start = max, end = sum;
+        int result = Integer.MAX_VALUE;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (isPossible(nums, k, mid)) {
+                result = mid;
+                end = mid - 1;
             } else {
-                right = mid;
+                start = mid + 1;
             }
         }
-        return left;
+        return result;
+    }
+
+
+    static boolean isPossible(int[] arr, int k, int mid) {
+        int requiredStudents = 1;
+        int curr_sum = 0;
+        for (int i : arr) {
+            curr_sum += i;
+            if (curr_sum > mid) {
+                requiredStudents++;
+                curr_sum = i;
+            }
+        }
+        return requiredStudents <= k;
     }
     public static void main(String[] args) {
         System.out.println(splitArray(new int[]{7,2,5,10,8}, 3));
     }
+
+
 }
