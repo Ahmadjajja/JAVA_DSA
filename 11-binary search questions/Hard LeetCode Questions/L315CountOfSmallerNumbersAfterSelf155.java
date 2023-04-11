@@ -21,6 +21,8 @@ public class L315CountOfSmallerNumbersAfterSelf155 {
             int index = findIndex(sorted, nums[i]);
             counts[i] = index;
             sorted.add(index, nums[i]);
+            System.out.println("sorted " + sorted);
+            System.out.println("counts " + Arrays.toString(counts));
         }
         return Arrays.asList(counts);
     }
