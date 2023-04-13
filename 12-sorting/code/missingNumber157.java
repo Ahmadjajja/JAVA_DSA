@@ -1,8 +1,8 @@
 // leetcode submission url: https://leetcode.com/problems/missing-number/submissions/933129425/
-
+// asked in amazon
 import java.util.Arrays;
 
-public class missingNumber {
+public class missingNumber157 {
     public static int missingNumber(int[] nums){
          int i = 0;
          while (i < nums.length) {
