@@ -16,7 +16,6 @@ public class allMissingNumbers158 {
                 i++;
             }
          }
-         System.out.println("nums: " + Arrays.toString(nums));
          List<Integer> list = new ArrayList<>();
         // finding all missing numbers
          for (int j = 0; j < nums.length; j++) {  
