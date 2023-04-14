@@ -14,10 +14,10 @@ public class findDuplicate159 {
                     return nums[i];
                 }
             } else {
+                System.out.println("nums: " + Arrays.toString(nums));
                 i++;
             }
          }
-         System.out.println("nums: " + Arrays.toString(nums));
         return -1;
     }
     private static void swap(int[] arr, int first, int second) {
@@ -26,7 +26,7 @@ public class findDuplicate159 {
         arr[second] = temp;
     }
     public static void main(String[] args) {
-        int[] arr = {1,3,4,2,5}; 
+        int[] arr = {1,3,2,2,4}; 
         // int[] arr = {3,1,3,4,2};
         System.out.println("Duplicate element : " + findDuplicate(arr));
     }
