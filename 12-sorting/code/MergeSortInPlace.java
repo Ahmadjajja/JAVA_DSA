@@ -47,7 +47,6 @@ public class MergeSortInPlace {
         }
 
         // it may be possible that one of the arrays is not complete
-        // copy the remaining elements
         // in both of these loops either one is going to true
         while(i < m){
             mix[k] = arr[i];
@@ -60,9 +59,8 @@ public class MergeSortInPlace {
             j++;
             k++;
         }
-        System.out.println("arr : " + Arrays.toString(arr));
-        System.out.println("mix : " + Arrays.toString(mix));
-        for (int k2 = 0; k2 < mix.length; k2++) {
+        // updating sorted portion of array element with same unsorted potion of array
+        for (int k2 = 0; k2 < mix.length; k2++) {  
             arr[s+k2] = mix[k2];
         }
     }
