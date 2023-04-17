@@ -12,6 +12,8 @@
 
 **(168) Question 06** <a href="https://leetcode.com/problems/maximum-product-of-three-numbers/submissions/935304168/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_628. Maximum Product of Three Numbers_</a> <br/>
 
+**(169) Question 07** <a href="https://leetcode.com/problems/sort-array-by-parity/submissions/935328080/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_905. Sort Array By Parity_</a> <br/>
+
 
 
 
