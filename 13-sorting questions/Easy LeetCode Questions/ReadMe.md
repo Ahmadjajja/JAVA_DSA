@@ -8,6 +8,10 @@
 
 **(166) Question 04** <a href="https://leetcode.com/problems/third-maximum-number/submissions/935236556/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_414. Third Maximum Number_</a> <br/>
 
+**(167) Question 05** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(168) Question 06** <a href="https://leetcode.com/problems/maximum-product-of-three-numbers/submissions/935304168/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_628. Maximum Product of Three Numbers_</a> <br/>
+
 
 
 
