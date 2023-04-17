@@ -19,7 +19,7 @@
 
 **(171) Question 09** <a href="https://leetcode.com/problems/largest-perimeter-triangle/submissions/935369537/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_976. Largest Perimeter Triangle_</a> <br/>
 
-**(172) Question 10** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(172) Question 10** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/> 
 
 
 
