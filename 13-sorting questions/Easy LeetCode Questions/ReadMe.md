@@ -38,5 +38,7 @@
 
 **(180) Question 18** <a href="https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/936161425/"_blank" style="font-size: 16px;dispaly:inline-block;">_1491. Average Salary Excluding the Minimum and Maximum Salary_</a> <br/>
 
+**(181) Question 19** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/"_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
+
 
 
