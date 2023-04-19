@@ -36,9 +36,12 @@
 
 **(179) Question 17** <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/936159219/"_blank" style="font-size: 16px;dispaly:inline-block;">_1464. Maximum Product of Two Elements in an Array_</a> <br/>
 
-**(180) Question 18** <a href="https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/936161425/"_blank" style="font-size: 16px;dispaly:inline-block;">_1491. Average Salary Excluding the Minimum and Maximum Salary_</a> <br/>
+**(180) Question 18** <a href="https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/936161425/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1491. Average Salary Excluding the Minimum and Maximum Salary_</a> <br/>
 
 **(181) Question 19** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/"_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
 
+**(182) Question 20** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/"_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
 
+**(183) Question 21** <a href="https://leetcode.com/problems/sort-array-by-increasing-frequency/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1636. Sort Array by Increasing Frequency (Not Solved yet)_</a> <br/>
 
+**(184) Question 22** <a href="https://leetcode.com/problems/two-sum/submissions/936216151/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1. Two Sum_</a> <br/>
