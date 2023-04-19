@@ -32,5 +32,7 @@
 
 **(177) Question 15** <a href="https://leetcode.com/problems/rank-transform-of-an-array/submissions/936110432/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1331. Rank Transform of an Array_</a> <br/>
 
+**(178) Question 16** <a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/submissions/936128004/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1356. Sort Integers by The Number of 1 Bits_</a> <br/>
+
 
 
