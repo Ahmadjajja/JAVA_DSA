@@ -36,5 +36,7 @@
 
 **(179) Question 17** <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/936159219/"_blank" style="font-size: 16px;dispaly:inline-block;">_1464. Maximum Product of Two Elements in an Array_</a> <br/>
 
+**(180) Question 18** <a href="https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/936161425/"_blank" style="font-size: 16px;dispaly:inline-block;">_1491. Average Salary Excluding the Minimum and Maximum Salary_</a> <br/>
+
 
 
