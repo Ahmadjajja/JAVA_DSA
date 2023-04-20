@@ -7,3 +7,7 @@
 **(187) Question 03** <a href="https://leetcode.com/problems/4sum/submissions/936640832/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_18. 4Sum_</a> <br/>  
 
 **(188) Question 04** <a href="https://leetcode.com/problems/group-anagrams/submissions/936722701/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_49. Group Anagrams_</a> <br/>  
+
+**(189) Question 05** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">_56. Merge Intervals(remaining)_</a> <br/>  
+
+**(190) Question 06** <a href="https://leetcode.com/problems/sort-colors/submissions/936724886/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_75. Sort Colors_</a> <br/>  
