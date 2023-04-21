@@ -34,13 +34,13 @@
 
 **(178) Question 16** <a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/submissions/936128004/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1356. Sort Integers by The Number of 1 Bits_</a> <br/>
 
-**(179) Question 17** <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/936159219/"_blank" style="font-size: 16px;dispaly:inline-block;">_1464. Maximum Product of Two Elements in an Array_</a> <br/>
+**(179) Question 17** <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/936159219/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1464. Maximum Product of Two Elements in an Array_</a> <br/>
 
 **(180) Question 18** <a href="https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/936161425/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1491. Average Salary Excluding the Minimum and Maximum Salary_</a> <br/>
 
-**(181) Question 19** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/"_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
+**(181) Question 19** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
 
-**(182) Question 20** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/"_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
+**(182) Question 20** <a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/936165370/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1502. Can Make Arithmetic Progression From Sequence_</a> <br/>
 
 **(183) Question 21** <a href="https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/936500285/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1636. Sort Array by Increasing Frequency _</a> <br/>
 
