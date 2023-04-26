@@ -12,4 +12,11 @@ class Testing {
         address.replace('0', '0');
         return add.toString();
     }
+    public static void main(String[] args) {
+        System.out.println("hey");
+        StringBuilder str = new StringBuilder("Ahmad");
+        System.out.println(str);
+        str = new StringBuilder("jajja");
+        System.out.println(str);
+    }
 }

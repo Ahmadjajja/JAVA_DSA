@@ -4,4 +4,8 @@
 
 **(197) Question 02** <a href="https://leetcode.com/problems/shuffle-string/submissions/940001682/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1528. Shuffle String_</a> <br/>
 
+**(198) Question 03** <a href="https://leetcode.com/problems/goal-parser-interpretation/submissions/940014434/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1678. Goal Parser Interpretation_</a> <br/>
+
+**(199) Question 04** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
  
