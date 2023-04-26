@@ -10,7 +10,7 @@ public class quickSort {
         // s and e variable uses for basically swapping
         // low and high variable uses for figuring out in which part of array we are working on
 
-        if (low >= high) {
+        if (low >= high) {  // base condition
             return;
         }
 
