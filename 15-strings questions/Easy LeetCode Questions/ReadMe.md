@@ -8,6 +8,18 @@
 
 **(199) Question 04** <a href="https://leetcode.com/problems/sorting-the-sentence/submissions/940038521/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1859. Sorting the Sentence_</a> <br/>
 
-**(200) Question 05** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">_ _</a> <br/>
+
+**(200) Question 05** <a href="https://leetcode.com/problems/sorting-the-sentence/submissions/940038521/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1859. Sorting the Sentence_</a> <br/>
+
+**(201) Question 06** <a href="https://leetcode.com/problems/to-lower-case/submissions/940056243/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_709. To Lower Case_</a> <br/>
+
+**(202) Question 07** <a href="https://leetcode.com/problems/determine-if-string-halves-are-alike/submissions/940063778/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1704. Determine if String Halves Are Alike_</a> <br/>
+
+**(204) Question 08** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(205) Question 09** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(206) Question 10** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
 
  

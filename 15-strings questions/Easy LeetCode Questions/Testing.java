@@ -20,5 +20,6 @@ class Testing {
         // System.out.println(str);
 
         System.out.println(Character.getNumericValue('2'));
+        System.out.println('1');
     }
 }
