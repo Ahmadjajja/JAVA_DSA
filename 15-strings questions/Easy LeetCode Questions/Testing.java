@@ -13,10 +13,12 @@ class Testing {
         return add.toString();
     }
     public static void main(String[] args) {
-        System.out.println("hey");
-        StringBuilder str = new StringBuilder("Ahmad");
-        System.out.println(str);
-        str = new StringBuilder("jajja");
-        System.out.println(str);
+        // System.out.println("hey");
+        // StringBuilder str = new StringBuilder("Ahmad");
+        // System.out.println(str);
+        // str = new StringBuilder("jajja");
+        // System.out.println(str);
+
+        System.out.println(Character.getNumericValue('2'));
     }
 }
