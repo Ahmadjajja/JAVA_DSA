@@ -19,7 +19,19 @@
 
 **(204) Question 09** <a href="https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/940416823/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1967. Number of Strings That Appear as Substrings in Word_</a> <br/>
 
-**(205) Question 10** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(205) Question 10** <a href="https://leetcode.com/problems/robot-return-to-origin/submissions/940451563/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_657. Robot Return to Origin_</a> <br/>
+
+**(206) Question 11** <a href="https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/940467572/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_557. Reverse Words in a String III_</a> <br/>
+
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 
 
  
