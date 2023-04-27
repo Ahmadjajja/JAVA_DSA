@@ -17,7 +17,7 @@
 
 **(203) Question 08** <a href="https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/submissions/940404383/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1309. Decrypt String from Alphabet to Integer Mapping_</a> <br/>
 
-**(204) Question 09** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(204) Question 09** <a href="https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/940416823/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1967. Number of Strings That Appear as Substrings in Word_</a> <br/>
 
 **(205) Question 10** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 

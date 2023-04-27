@@ -20,7 +20,8 @@ class Testing {
         // System.out.println(str);
 
         System.out.println(Character.getNumericValue('#'));
-        System.out.println((char)(96 + 10));
+        System.out.println("ahmad".contains("ab"));
+        
     }
     private static char[] Char(int i) {
         return null;
