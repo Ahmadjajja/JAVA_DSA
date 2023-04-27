@@ -19,7 +19,10 @@ class Testing {
         // str = new StringBuilder("jajja");
         // System.out.println(str);
 
-        System.out.println(Character.getNumericValue('2'));
-        System.out.println('1');
+        System.out.println(Character.getNumericValue('#'));
+        System.out.println((char)(96 + 10));
+    }
+    private static char[] Char(int i) {
+        return null;
     }
 }
