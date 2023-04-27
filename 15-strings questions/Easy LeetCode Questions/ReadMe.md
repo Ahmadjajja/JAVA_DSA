@@ -24,8 +24,11 @@
 **(206) Question 11** <a href="https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/940467572/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_557. Reverse Words in a String III_</a> <br/>
 
 **(207) Question 12** <a href="https://leetcode.com/problems/excel-sheet-column-title/submissions/940553131/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_168. Excel Sheet Column Title_</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(208) Question 13** <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/940566902/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_28. Find the Index of the First Occurrence in a String_</a> <br/>
+
+**(209) Question 14** <a href="https://leetcode.com/problems/long-pressed-name/submissions/940612906/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_925. Long Pressed Name_</a> <br/>
+
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
