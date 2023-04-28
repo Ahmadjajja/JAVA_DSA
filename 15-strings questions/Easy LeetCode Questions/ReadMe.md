@@ -29,8 +29,10 @@
 
 **(209) Question 14** <a href="https://leetcode.com/problems/long-pressed-name/submissions/940612906/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_925. Long Pressed Name_</a> <br/>
 
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(210) Question 15** <a href="https://leetcode.com/problems/valid-palindrome/submissions/940637989/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_125. Valid Palindrome_</a> <br/>
+
+
+**(211) Question 16** <a href="https://leetcode.com/problems/valid-palindrome-ii/submissions/940910562/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_680. Valid Palindrome II_</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
