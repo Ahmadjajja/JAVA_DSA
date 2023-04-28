@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Testing {
     public String defangIPaddr(String address) {
         StringBuilder add = new StringBuilder();
@@ -21,6 +23,7 @@ class Testing {
 
         // System.out.println(Character.getNumericValue('#'));
         // System.out.println();
+        System.out.println(Arrays.toString(new String[]{}).equals(Arrays.toString(new String[]{"1"})));
         String name = "ahmad";
 
         
