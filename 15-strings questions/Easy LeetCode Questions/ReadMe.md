@@ -38,7 +38,13 @@
 
 **(213) Question 18** <a href="https://leetcode.com/problems/maximum-repeating-substring/submissions/940966189/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1668. Maximum Repeating Substring_</a> <br/>
 **(214) Question 19** <a href="https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/submissions/940973514/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1784. Check if Binary String Has at Most One Segment of Ones_</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(215) Question 20** <a href="https://leetcode.com/problems/merge-strings-alternately/submissions/940982177/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1768. Merge Strings Alternately_</a> <br/>
+
+**(216) Question 21** <a href="https://leetcode.com/problems/reverse-prefix-of-word/submissions/940986841/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_2000. Reverse Prefix of Word_</a> <br/>
+**(215) Question 20** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(215) Question 20** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(215) Question 20** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 
 
  

@@ -14,13 +14,17 @@ class Testing {
     }
     public static void main(String[] args) {
         // System.out.println("hey");
-        // StringBuilder str = new StringBuilder("Ahmad");
+        StringBuilder str = new StringBuilder("Ahmad");
         // System.out.println(str);
         // str = new StringBuilder("jajja");
         // System.out.println(str);
 
-        System.out.println(Character.getNumericValue('#'));
-        System.out.println("Ahmad".substring(0, 0));
+        // System.out.println(Character.getNumericValue('#'));
+        // System.out.println();
+        String name = "ahmad";
+
+        
+        System.out.println(name.indexOf('h'));
         
         for (String string : args) {
             
