@@ -20,7 +20,7 @@ class Testing {
         // System.out.println(str);
 
         System.out.println(Character.getNumericValue('#'));
-        System.out.println((char)(64 + 26));
+        System.out.println("Ahmad".substring(0, 0));
         
         for (String string : args) {
             

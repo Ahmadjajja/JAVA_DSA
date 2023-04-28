@@ -33,8 +33,10 @@
 
 
 **(211) Question 16** <a href="https://leetcode.com/problems/valid-palindrome-ii/submissions/940910562/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_680. Valid Palindrome II_</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+
+**(212) Question 17** <a href="https://leetcode.com/problems/longest-common-prefix/submissions/940944147/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_14. Longest Common Prefix_</a> <br/>
+
+**(213) Question 18** <a href="https://leetcode.com/problems/maximum-repeating-substring/submissions/940966189/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1668. Maximum Repeating Substring_</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 
