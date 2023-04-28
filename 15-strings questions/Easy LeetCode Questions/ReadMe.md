@@ -37,7 +37,7 @@
 **(212) Question 17** <a href="https://leetcode.com/problems/longest-common-prefix/submissions/940944147/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_14. Longest Common Prefix_</a> <br/>
 
 **(213) Question 18** <a href="https://leetcode.com/problems/maximum-repeating-substring/submissions/940966189/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1668. Maximum Repeating Substring_</a> <br/>
-**(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
+**(214) Question 19** <a href="https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/submissions/940973514/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1784. Check if Binary String Has at Most One Segment of Ones_</a> <br/>
 **(20) Question 1** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 
 
