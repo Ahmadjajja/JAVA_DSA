@@ -47,7 +47,7 @@
 
 **() Question** <a href="" target="_blank" style="font-size: 16px;dispaly:inline-block;">__</a> <br/>
 
-**(219) Question 24** <a href="https://leetcode.com/problems/length-of-last-word/submissions/940995659/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_58. Length of Last Word_</a> <br/>
+**(219) Question 24** <a href="https://leetcode.com/problems/length-of-last-word/submissions/940995659/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_58. Length of Last Word_</a> <br/> 
 
 
  
