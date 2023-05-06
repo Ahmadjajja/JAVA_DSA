@@ -12,3 +12,5 @@
 
 **(225) Question 06** <a href="https://leetcode.com/problems/next-greater-element-iii/submissions/944911710/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_556. Next Greater Element III_</a> <br/>
 
+**(226) Question 07** <a href="https://leetcode.com/problems/maximum-number-of-removable-characters/submissions/945260806/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1898. Maximum Number of Removable Characters_</a> <br/>
+
