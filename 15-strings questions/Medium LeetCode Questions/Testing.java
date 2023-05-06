@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 class Testing {
@@ -17,7 +18,13 @@ class Testing {
         return true;
     }
     public static void main(String[] args) {
-        defangIPaddr("Ahmad");
+
+        System.out.println(String.valueOf(1));
+        System.out.println(Integer.valueOf("11"));
+        ArrayList<String> list = new ArrayList<String>();
+        System.out.println(3+2*22*2/3+25);
+        System.out.println(Integer.valueOf("5"));
+        // defangIPaddr("Ahmad");
         // System.out.println("hey"); 
         // StringBuilder str = new StringBuilder("Ahmad");
         // System.out.println(str);
