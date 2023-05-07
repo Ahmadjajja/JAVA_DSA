@@ -24,6 +24,7 @@ class Testing {
         ArrayList<String> list = new ArrayList<String>();
         System.out.println(3+2*22*2/3+25);
         System.out.println(Integer.valueOf("5"));
+        System.out.println("ahmad".substring(0, 1));
         // defangIPaddr("Ahmad");
         // System.out.println("hey"); 
         // StringBuilder str = new StringBuilder("Ahmad");
@@ -43,6 +44,7 @@ class Testing {
         // for (String string : args) {
             
         // }
+        
         
     }
 

@@ -20,3 +20,5 @@
 
 **(229) Question 10** <a href="https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/submissions/945975342/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1750. Minimum Length of String After Deleting Similar Ends_</a> <br/>
 
+**(230) Question 11** <a href="https://leetcode.com/problems/number-of-substrings-with-only-1s/submissions/945999730/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1513. Number of Substrings With Only 1s_</a> <br/>
+
