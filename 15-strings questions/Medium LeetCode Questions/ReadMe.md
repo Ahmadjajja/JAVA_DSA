@@ -18,3 +18,5 @@
 
 **(228) Question 09** <a href="https://leetcode.com/problems/basic-calculator-ii/submissions/945891387/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_227. Basic Calculator II_</a> <br/>
 
+**(229) Question 10** <a href="https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/submissions/945975342/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1750. Minimum Length of String After Deleting Similar Ends_</a> <br/>
+
