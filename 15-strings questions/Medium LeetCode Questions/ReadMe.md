@@ -22,3 +22,5 @@
 
 **(230) Question 11** <a href="https://leetcode.com/problems/number-of-substrings-with-only-1s/submissions/945999730/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1513. Number of Substrings With Only 1s_</a> <br/>
 
+**(231) Question 12** <a href="https://leetcode.com/problems/count-number-of-homogenous-substrings/submissions/946014707/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1759. Count Number of Homogenous Substrings_</a> <br/>
+
