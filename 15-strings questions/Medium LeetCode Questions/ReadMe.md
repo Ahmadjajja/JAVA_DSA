@@ -24,3 +24,5 @@
 
 **(231) Question 12** <a href="https://leetcode.com/problems/count-number-of-homogenous-substrings/submissions/946014707/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1759. Count Number of Homogenous Substrings_</a> <br/>
 
+**(232) Question 13** <a href="https://leetcode.com/problems/get-equal-substrings-within-budget/submissions/947144953/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1208. Get Equal Substrings Within Budget_</a> <br/>
+
