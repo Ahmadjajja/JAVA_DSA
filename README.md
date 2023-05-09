@@ -5,7 +5,7 @@ This is the Curriculum for "Learn JAVA Data Structures and Algorithms in 4.5 Mon
 ## Week 1,2 Intro to programming & JAVA, Flow of programs
 Complete the lectures and assignments from 01 - 04
 
-## Week 3-4 Conditional loops, methods and arrays
+## Week 3-4 Conditional loops, methods and arrays 
 Complete the lectures and assignments from 05 - 08
 
 # Month 2
