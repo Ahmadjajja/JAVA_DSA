@@ -40,11 +40,11 @@ class Testing {
 
         int[] costs = new int[4];
         
-        System.out.println("krrgw".charAt(0) - "zjxss".charAt(0));
-        System.out.println("krrgw".charAt(1) - "zjxss".charAt(1));
-        System.out.println("krrgw".charAt(2) - "zjxss".charAt(2));
-        System.out.println("krrgw".charAt(3) - "zjxss".charAt(3));
-        System.out.println("krrgw".charAt(4) - "zjxss".charAt(4));
+        // System.out.println("krrgw".charAt(0) - "zjxss".charAt(0));
+        // System.out.println("krrgw".charAt(1) - "zjxss".charAt(1));
+        // System.out.println("krrgw".charAt(2) - "zjxss".charAt(2));
+        // System.out.println("krrgw".charAt(3) - "zjxss".charAt(3));
+        System.out.println((int) 'z');
 
         
     }
