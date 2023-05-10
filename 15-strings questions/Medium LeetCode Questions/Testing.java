@@ -44,7 +44,7 @@ class Testing {
         // System.out.println("krrgw".charAt(1) - "zjxss".charAt(1));
         // System.out.println("krrgw".charAt(2) - "zjxss".charAt(2));
         // System.out.println("krrgw".charAt(3) - "zjxss".charAt(3));
-        System.out.println(Integer.valueOf("05"));
+        System.out.println("Ahmad jajja".split(" "));
 
         
     }
