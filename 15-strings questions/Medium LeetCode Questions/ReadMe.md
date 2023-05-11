@@ -30,7 +30,7 @@
 
 **(234) Question 15** <a href="https://leetcode.com/problems/minimum-time-difference/submissions/947272509/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_539. Minimum Time Difference_</a> <br/>
 
-**(235) Question 16** <a href=" " target="_blank" style="font-size: 16px;dispaly:inline-block;">_ _</a> <br/>
+**(235) Question 16** <a href="https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/submissions/948238364/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1545. Find Kth Bit in Nth Binary String_</a> <br/>
 
 **(236) Question 17** <a href="https://leetcode.com/problems/camelcase-matching/submissions/947802223/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1023. Camelcase Matching_</a> <br/>
 
