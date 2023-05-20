@@ -1,9 +1,9 @@
-package com.kunal.bitwise;
+
 
 public class Power {
     public static void main(String[] args) {
         int base = 2;
-        int power = 4;
+        int power = 3;
 
         int ans = 1;
 

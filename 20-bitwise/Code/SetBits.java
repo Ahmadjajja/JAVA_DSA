@@ -1,9 +1,9 @@
-package com.kunal.bitwise;
+
 
 public class SetBits {
     public static void main(String[] args) {
-        int n = 234567;
-        System.out.println(Integer.toBinaryString(n));
+        int n = 6;
+//        System.out.println(Integer.toBinaryString(n));
 
         System.out.println(setBits(n));
     }
@@ -17,6 +17,9 @@ public class SetBits {
 //        }
 
         while (n > 0) {
+            System.out.println(Integer.toBinaryString(n));
+            System.out.println(Integer.toBinaryString(n - 1));
+            System.out.println("n & (n-1) : " + Integer.toBinaryString(n & (n-1)));
             count++;
             n = n & (n-1);
         }
