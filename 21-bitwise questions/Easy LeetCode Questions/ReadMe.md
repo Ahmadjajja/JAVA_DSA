@@ -7,3 +7,6 @@
 **(275) Question 03** <a href="https://leetcode.com/problems/reverse-bits/submissions/980669237/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_190. Reverse Bits_</a> <br/>
 
 **(276) Question 04** <a href="https://leetcode.com/problems/number-of-1-bits/submissions/954048309/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_191. Number of 1 Bits_</a> <br/>
+
+**(277) Question 05** <a href="https://leetcode.com/problems/counting-bits/submissions/981620789/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_338. Counting Bits
+_</a> <br/>
