@@ -17,4 +17,4 @@ _</a> <br/>
 
 **(280) Question 08** <a href="https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/984570934/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_693. Binary Number with Alternating Bits_</a> <br/>
 
-**(281) Question 09** <a href="https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/submissions/984628681/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_762. Prime Number of Set Bits in Binary Representation_</a> <br/>
+**(281) Question 09** <a href="https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/submissions/984635682/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_762. Prime Number of Set Bits in Binary Representation_</a> <br/>
