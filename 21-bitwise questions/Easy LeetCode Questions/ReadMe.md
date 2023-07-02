@@ -10,3 +10,5 @@
 
 **(277) Question 05** <a href="https://leetcode.com/problems/counting-bits/submissions/981620789/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_338. Counting Bits
 _</a> <br/>
+
+**(278) Question 06** <a href="https://leetcode.com/problems/hamming-distance/submissions/984478388/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_461. Hamming Distance_</a> <br/>
