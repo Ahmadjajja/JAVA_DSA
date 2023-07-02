@@ -14,3 +14,5 @@ _</a> <br/>
 **(278) Question 06** <a href="https://leetcode.com/problems/hamming-distance/submissions/984478388/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_461. Hamming Distance_</a> <br/>
 
 **(279) Question 07** <a href="https://leetcode.com/problems/number-complement/submissions/984518872/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_476. Number Complement_</a> <br/>
+
+**(280) Question 08** <a href="https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/984558996/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_693. Binary Number with Alternating Bits_</a> <br/>
