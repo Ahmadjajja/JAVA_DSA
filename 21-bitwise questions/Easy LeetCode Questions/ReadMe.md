@@ -22,3 +22,9 @@ _</a> <br/>
 **(282) Question 10** <a href="https://leetcode.com/problems/binary-gap/submissions/984997149/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_868. Binary Gap_</a> <br/>
 
 **(283) Question 11** <a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/submissions/985022387/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1356. Sort Integers by The Number of 1 Bits_</a> <br/>
+
+**(284) Question 12** <a href="https://leetcode.com/problems/xor-operation-in-an-array/submissions/985027555/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1486. XOR Operation in an Array_</a> <br/>
+
+**(285) Question 13** <a href="https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/985036944/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1684. Count the Number of Consistent Strings_</a> <br/>
+
+**(286) Question 14** <a href="https://leetcode.com/problems/decode-xored-array/submissions/985069102/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1720. Decode XORed Array_</a> <br/>
