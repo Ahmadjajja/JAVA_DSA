@@ -28,3 +28,5 @@ _</a> <br/>
 **(285) Question 13** <a href="https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/985036944/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1684. Count the Number of Consistent Strings_</a> <br/>
 
 **(286) Question 14** <a href="https://leetcode.com/problems/decode-xored-array/submissions/985069102/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1720. Decode XORed Array_</a> <br/>
+
+**(287) Question 15** <a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/985901318/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1863. Sum of All Subset XOR Totals_</a> <br/>
