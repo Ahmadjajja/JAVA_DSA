@@ -40,3 +40,5 @@ _</a> <br/>
 **(297) Question 19** <a href="https://leetcode.com/problems/convert-a-number-to-hexadecimal/submissions/987618574/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_405. Convert a Number to Hexadecimal_</a> <br/>
 
 **(298) Question 20** <a href="https://leetcode.com/problems/minimum-bit-flips-to-convert-number/submissions/987651285/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_2220. Minimum Bit Flips to Convert Number_</a> <br/>
+
+**(299) Question 21** <a href="https://leetcode.com/problems/number-of-even-and-odd-bits/submissions/987659099/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_2595. Number of Even and Odd Bits_</a> <br/>
