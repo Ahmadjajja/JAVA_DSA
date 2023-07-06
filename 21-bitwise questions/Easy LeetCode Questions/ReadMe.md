@@ -34,3 +34,5 @@ _</a> <br/>
 **(294) Question 16** <a href="https://leetcode.com/problems/power-of-two/submissions/987527893/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_231. Power of Two_</a> <br/>
 
 **(295) Question 17** <a href="https://leetcode.com/problems/power-of-four/submissions/987562889/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_342. Power of Four_</a> <br/>
+
+**(296) Question 18** <a href="https://leetcode.com/problems/find-the-difference/submissions/987570693/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_389. Find the Difference_</a> <br/>
