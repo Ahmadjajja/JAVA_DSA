@@ -30,3 +30,5 @@ _</a> <br/>
 **(286) Question 14** <a href="https://leetcode.com/problems/decode-xored-array/submissions/985069102/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1720. Decode XORed Array_</a> <br/>
 
 **(287) Question 15** <a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/985901318/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1863. Sum of All Subset XOR Totals_</a> <br/>
+
+**(294) Question 16** <a href="https://leetcode.com/problems/power-of-two/submissions/987527893/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_231. Power of Two_</a> <br/>
