@@ -38,3 +38,4 @@ public class Prime {
 }
 
 // time complexity = n * SquareRoot(n)
+// space complexity = O(1)
