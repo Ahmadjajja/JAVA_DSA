@@ -5,6 +5,25 @@ public class Seive {
         seive(n, primes);
     }
     // false in array means number is prime
+
+    // Visualization of idea is :
+    // All these indices of array are false by default.
+    // Making each prime number's next multiple indices
+    // to true because they all are not prime number (actuall, we are reducing time complexity in this way)
+    //
+    //      O  O  X  O  X  X  X  X X            O -> False
+    //      2  3  4  5  6  7  8  9 10           X -> True
+    //
+    //  O  X  O  X  X  X  O  X  O  X
+    //  11 12 13 14 15 16 17 18 19 20
+    //
+    //  X  X  O  X  X  X  X  X  O  X
+    //  21 22 23 24 25 26 27 28 29 30
+    //
+    //  O  X  X  X  X  X  O  X  X  X
+    //  31 32 33 34 35 36 37 38 39 40
+    //
+    //
     static void seive(int n, boolean[] primes){
         for (int i = 2; i * i <= n; i++) {
             if (!primes[i]) {
