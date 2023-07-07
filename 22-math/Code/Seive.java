@@ -45,7 +45,7 @@ public class Seive {
 
 // // Time complexity : 
 
-// n / 2 + n / 3 + n / 5 + n / 7 + ..... p
+// n / 2 + n / 3 + n / 5 + n / 7 + ..... p (Highest prime number less than n)
 // n (1 / 2 + 1 / 3 + 1 / 5 + 1 / 7 + .... + last)
 // Harmonic progression for primes   log(log N)
 // Total time complexity 
