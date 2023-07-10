@@ -9,3 +9,7 @@
 **(310) Question 04** <a href="https://leetcode.com/problems/self-dividing-numbers/submissions/989488908/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_728. Self Dividing Numbers_</a> <br/>
 
 **(311) Question 05** <a href="https://leetcode.com/problems/power-of-three/submissions/989543876/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_326. Power of Three_</a> <br/>
+
+**(312) Question 06** <a href="https://leetcode.com/problems/fibonacci-number/submissions/990408456/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_509. Fibonacci Number_</a> <br/>
+
+**(313) Question 07** <a href="https://leetcode.com/problems/fizz-buzz/submissions/990413621/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_412. Fizz Buzz_</a> <br/>
