@@ -11,3 +11,5 @@
 **(318) Question 5** <a href="https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/submissions/991229303/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1828. Queries on Number of Points Inside a Circle_</a> <br/>
 
 **(319) Question 6** <a href="https://leetcode.com/problems/encode-and-decode-tinyurl/submissions/991604781/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_535. Encode and Decode TinyURL_</a> <br/>
+
+**(320) Question 6** <a href="https://leetcode.com/problems/integer-break/submissions/991674779/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_343. Integer Break_</a> <br/>
