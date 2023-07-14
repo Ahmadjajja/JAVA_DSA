@@ -15,3 +15,5 @@
 **(320) Question 6** <a href="https://leetcode.com/problems/integer-break/submissions/991674779/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_343. Integer Break_</a> <br/>
 
 **(321) Question 7** <a href="https://leetcode.com/problems/permutations/submissions/992676910/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_46. Permutations_</a> <br/>
+
+**(322) Question 8** <a href="https://leetcode.com/problems/different-ways-to-add-parentheses/submissions/994311666/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_241. Different Ways to Add Parentheses_</a> <br/>
