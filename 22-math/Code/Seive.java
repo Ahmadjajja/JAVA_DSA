@@ -11,7 +11,7 @@ public class Seive {
     // Making each prime number's next multiple indices
     // to true because they all are not prime number (actuall, we are reducing time complexity in this way)
     //
-    //      O  O  X  O  X  X  X  X X            O -> False
+    //      O  O  X  O  X  O  X  X X            O -> False
     //      2  3  4  5  6  7  8  9 10           X -> True
     //
     //  O  X  O  X  X  X  O  X  O  X
