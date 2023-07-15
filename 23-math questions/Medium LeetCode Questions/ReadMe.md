@@ -22,3 +22,5 @@
 _</a> <br/>
 
 **(324) Question 10** <a href="https://leetcode.com/problems/count-primes/submissions/994704014/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_204. Count Primes_</a> <br/>
+
+**(325) Question 11** <a href="https://leetcode.com/problems/super-pow/submissions/994715260/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_372. Super Pow_</a> <br/>
