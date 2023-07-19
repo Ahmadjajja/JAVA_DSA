@@ -15,6 +15,6 @@ public class SumTryangleFromArr{
             temp[i] = arr[i] + arr[i + 1];
         }
         printTriAngle(temp);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); 
     }
 }

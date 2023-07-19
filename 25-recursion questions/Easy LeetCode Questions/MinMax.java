@@ -27,6 +27,6 @@ public class MinMax{
         }
         min = Math.min(min, arr[index]);
         max = Math.max(max, arr[index]);
-        return minMax2(arr, ++index, min, max);
+        return minMax2(arr, ++index, min, max); 
     }
 }
