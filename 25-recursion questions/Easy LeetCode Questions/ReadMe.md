@@ -11,3 +11,7 @@
 **(333) Question 05** <a href="https://www.geeksforgeeks.org/first-uppercase-letter-in-a-string-iterative-and-recursive/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_first-uppercase-letter-in-a-string-recursive_</a> <br/>
 
 **(334) Question 06** <a href="https://leetcode.com/problems/reverse-string/submissions/998468937/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_344. Reverse String using Recursion_</a> <br/>
+
+**(335) Question 07** <a href="https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1" target="_blank" style="font-size: 16px;dispaly:inline-block;">_print-1-to-n-without-using-loops (GFG)_</a> <br/>
+
+**(336) Question 08** <a href="https://www.geeksforgeeks.org/program-for-length-of-a-string-using-recursion/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_length of string using recursion (GFG)_</a> <br/>
