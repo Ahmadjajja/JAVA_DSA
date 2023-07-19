@@ -5,3 +5,5 @@
 **(330) Question 02** <a href="https://www.geeksforgeeks.org/sum-triangle-from-array/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_sum-triangle-from-array (GFG)_</a> <br/>
 
 **(331) Question 03** <a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_recursive-programs-to-find-minimum-and-maximum-elements-of-array (GFG)_</a> <br/>
+
+**(332) Question 04** <a href="https://leetcode.com/problems/binary-search/submissions/998234361/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_704. Binary Search using recursion_</a> <br/>
