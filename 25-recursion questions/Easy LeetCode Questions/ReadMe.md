@@ -25,3 +25,5 @@
 **(340) Question 12** <a href="https://leetcode.com/problems/power-of-three/submissions/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_231. Power of Three_</a> <br/>
 
 **(341) Question 13** <a href="https://www.geeksforgeeks.org/sum-of-natural-numbers-using-recursion/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Sum of natural numbers using recursion_</a> <br/>
+
+**(342) Question 14** <a href="https://leetcode.com/problems/power-of-four/submissions/1003767667/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_342. Power of Four_</a> <br/>
