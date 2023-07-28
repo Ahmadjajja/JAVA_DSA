@@ -1,5 +1,3 @@
-package com.kunal.backtracking;
-
 public class NQueens {
     public static void main(String[] args) {
         int n = 4;
@@ -19,13 +17,12 @@ public class NQueens {
         // placing the queen and checking for every row and col
         for (int col = 0; col < board.length; col++) {
             // place the queen if it is safe
-            if(isSafe(board, row, col)) {
+            if (isSafe(board, row, col)) {
                 board[row][col] = true;
                 count += queens(board, row + 1);
                 board[row][col] = false;
             }
         }
-
         return count;
     }
 
@@ -36,29 +33,29 @@ public class NQueens {
                 return false;
             }
         }
-
+        
         // diagonal left
         int maxLeft = Math.min(row, col);
-        for (int i = 1; i <= maxLeft; i++) {
-            if(board[row-i][col-i]) {
+        for (int i = 0; i <= maxLeft; i++) {
+            if (board[row - i][col - i]) {
                 return false;
             }
         }
 
-        // diagonal right
+        // diagonal left
         int maxRight = Math.min(row, board.length - col - 1);
-        for (int i = 1; i <= maxRight; i++) {
-            if(board[row-i][col+i]) {
+        for (int i = 0; i <= maxRight; i++) {
+            if (board[row - i][col + i]) {
                 return false;
             }
         }
-
+        // if none of the checks return false
         return true;
     }
 
     private static void display(boolean[][] board) {
-        for(boolean[] row : board) {
-            for(boolean element : row) {
+        for (boolean[] row : board) {
+            for (boolean element : row) {
                 if (element) {
                     System.out.print("Q ");
                 } else {

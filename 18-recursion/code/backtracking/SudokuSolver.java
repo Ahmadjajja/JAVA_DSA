@@ -1,5 +1,3 @@
-package com.kunal.backtracking;
-
 public class SudokuSolver {
     public static void main(String[] args) {
         int[][] board = new int[][]{
