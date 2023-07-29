@@ -29,3 +29,7 @@
 **(342) Question 14** <a href="https://leetcode.com/problems/power-of-four/submissions/1003767667/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_342. Power of Four_</a> <br/>
 
 **(343) Question 15** <a href="https://github.com/Ahmadjajja/JAVA_DSA/tree/main/25-recursion%20questions/Easy%20LeetCode%20Questions" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Find power_</a> <br/>
+
+**(344) Question 16** <a href="https://www.hackerrank.com/challenges/30-recursion/problem" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Find factorial_</a> <br/>
+
+**(345) Question 16** <a href="https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Program to check if an array is sorted or not_</a> <br/>
