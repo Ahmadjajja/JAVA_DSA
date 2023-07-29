@@ -9,11 +9,9 @@ class Solution {
         if(n == 0) return 1;
         if(n == 1) return x;
         if(n % 2 == 0){
-            double ans = helper(x, n / 2);
-            return ans * ans;
+            return helper(x * x, n / 2);
         } else {
-            double ans = helper(x, n / 2);
-            return ans * ans * x;
+            return x * helper(x * x, n / 2);
         }
     }
 }
