@@ -32,4 +32,8 @@
 
 **(344) Question 16** <a href="https://www.hackerrank.com/challenges/30-recursion/problem" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Find factorial_</a> <br/>
 
-**(345) Question 16** <a href="https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Program to check if an array is sorted or not_</a> <br/>
+**(345) Question 16** <a href="https://github.com/Ahmadjajja/JAVA_DSA/tree/main/25-recursion%20questions/Easy%20LeetCode%20Questions" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Program to check if an array is sorted or not(GFG)_</a> <br/>
+
+**(346) Question 17** <a href="https://github.com/Ahmadjajja/JAVA_DSA/tree/main/25-recursion%20questions/Easy%20LeetCode%20Questions" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Check for balanced parenthesis without using stack (GFG)_</a> <br/>
+
+**(347) Question 18** <a href="https://github.com/Ahmadjajja/JAVA_DSA/tree/main/25-recursion%20questions/Easy%20LeetCode%20Questions" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Remove all consecutive duplicates from the string_</a> <br/>
