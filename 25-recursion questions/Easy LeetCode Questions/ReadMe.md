@@ -39,3 +39,5 @@
 **(347) Question 18** <a href="https://github.com/Ahmadjajja/JAVA_DSA/tree/main/25-recursion%20questions/Easy%20LeetCode%20Questions" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Remove all consecutive duplicates from the string_</a> <br/>
 
 **(348) Question 19** <a href="https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Print all Palindromic Partitions of a String using Backtracking_</a> <br/>
+
+**(349) Question 20** <a href="https://www.geeksforgeeks.org/powet-set-lexicographic-order/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_Power Set in Lexicographic order_</a> <br/>
