@@ -11,9 +11,6 @@ class Solution {
             ans.add(new ArrayList<>(list));
             return;
         }
-        if(target < 0){
-            return;
-        }
 
         for(int i = start; i < candidates.length; i++){
             if(candidates[i] <= target){
