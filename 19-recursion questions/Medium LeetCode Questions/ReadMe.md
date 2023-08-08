@@ -11,3 +11,5 @@
 **(354) Question 5** <a href="https://leetcode.com/problems/combination-sum/submissions/1013614811/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_39. Combination Sum(Very Interesting problem)_</a> <br/>
 
 **(355) Question 6** <a href="https://leetcode.com/problems/count-good-numbers/submissions/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1922. Count Good Numbers(Very Interesting problem)_</a> <br/>
+
+**(356) Question 6** <a href="https://practice.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1" target="_blank" style="font-size: 16px;dispaly:inline-block;">_N Digit numbers with digits in increasing order(Very Interesting problem)_</a> <br/>
