@@ -58,7 +58,6 @@ class Solution {
                 int square = j * j;
                 dp[i] = Math.min(dp[i], 1 + dp[i - square]);
             }
-            System.out.print(dp[i] + " ");
         }
         
         return dp[n];
