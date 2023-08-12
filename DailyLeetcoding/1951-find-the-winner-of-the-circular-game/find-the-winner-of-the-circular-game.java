@@ -15,7 +15,7 @@ class Solution {
             removedPosition -= circle.size();
         }
         circle.remove(removedPosition);
-        while(removedPosition >= circle.size()){
+        if(removedPosition >= circle.size()){
             removedPosition -= circle.size();
         }
         return winner(circle, removedPosition, k);
