@@ -15,3 +15,5 @@
 **(356) Question 7** <a href="https://practice.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1" target="_blank" style="font-size: 16px;dispaly:inline-block;">_N Digit numbers with digits in increasing order(Very Interesting problem)_</a> <br/>
 
 **(357) Question 8** <a href="https://leetcode.com/problems/decode-string/submissions/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_394. Decode String_</a> <br/>
+
+**(358) Question 9** <a href="https://leetcode.com/problems/find-the-winner-of-the-circular-game/submissions/" target="_blank" style="font-size: 16px;dispaly:inline-block;">_1823. Find the Winner of the Circular Game_</a> <br/>
