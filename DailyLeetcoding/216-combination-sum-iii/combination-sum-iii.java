@@ -1,5 +1,8 @@
 class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
+        if(n <= k){
+            return new ArrayList<>();
+        }
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> combinationSum = new ArrayList<>();
         backtrack(ans, combinationSum, k, n, 1, 0);
