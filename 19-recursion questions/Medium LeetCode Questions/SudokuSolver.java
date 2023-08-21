@@ -42,7 +42,7 @@ public class SudokuSolver {
                     col = j;
                     emptyLeft = false;
                     break;
-                }
+                } 
             }
 
             // if you found some empty element in row, the break
