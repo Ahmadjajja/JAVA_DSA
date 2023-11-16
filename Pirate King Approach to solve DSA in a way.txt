@@ -1,0 +1,3 @@
+“Here’s my list of topics to start you off:
+
+Recursion - Two Pointers - Binary Search - Binary Trees - Backtracking - DFS - BFS - Sliding Window - Linked List - Graph - Sorting”
