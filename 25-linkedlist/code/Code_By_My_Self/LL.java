@@ -139,4 +139,49 @@ public class LL {
         System.out.println("END");
     }
 
+    // Using recursion
+    // Insert using recursion
+    public void insertRec(int val, int index) {
+        head = insertRec(val, index, head);
+    }
+
+    private Node insertRec(int val, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(val, node);
+            size++;
+            return temp;
+        }
+
+        node.next = insertRec(val, index - 1, node.next);
+        return node;
+    }
+
+    // questions
+    public void duplicates() {
+        Node node = head;
+
+        while (node.next != null) {
+            if (node.value == node.next.value) {
+                node.next = node.next.next;
+                size--;
+            } else {
+                node = node.next;
+            }
+        }
+        tail = node;
+        tail.next = null;
+    }
+
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.insertLast(1);
+        list.insertLast(1);
+        list.insertLast(2);
+        list.insertLast(3);
+        list.insertLast(3);
+        list.insertLast(3);
+        list.display();
+        list.duplicates();
+        list.display();
+    }
 }

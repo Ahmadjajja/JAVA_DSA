@@ -14,9 +14,7 @@ public class Main {
         list.display();
         System.err.println("First deleted element -> " + list.deleteFirst());
         list.display();
-        System.err.println("Last deleted element -> " + list.deleteLast());
-        list.display();
-        System.err.println("Deleted element at 2 -> " + list.delete(2));
+        list.insertRec(60, 2);
         list.display();
 
         // DLL list = new DLL();
