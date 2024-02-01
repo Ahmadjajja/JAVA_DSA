@@ -16,7 +16,6 @@ class Solution {
             temp = temp.next;
             size++;
         }
-        System.out.println("size : " + size);
         if(size == 1) return true;
         if(size % 2 == 0)
             mid = size / 2;
@@ -29,25 +28,19 @@ class Solution {
             return true;
         }
         ListNode temp = head;
-        if(size == 2) {
-            System.out.println("temp.val : " + temp.val);
-            System.out.println("temp.next.val : " + temp.next.val);            
+        if(size == 2) {           
             if(temp.val != temp.next.val){
                 return false;
             }
             return validPalindrome(head, 0, 0);
         } 
         if(size % 2 == 1){
-            System.out.println("Odd ");
-            System.out.println("size : " + size);
             for(int i = 1; i < mid - 1; i++){
                 temp = temp.next;
             }
             temp.next = temp.next.next;
             return validPalindrome(head, size - 1, (size - 1) / 2);
         } else {
-            System.out.println("Even ");
-            System.out.println("size : " + size);
             for(int i = 1; i < mid - 1; i++){
                 temp = temp.next;
             }
