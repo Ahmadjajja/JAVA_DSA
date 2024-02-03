@@ -62,22 +62,22 @@ class Solution {
         if (head == null || head.next == null) {
             return;
         }
+
+        // Finding middle of the linked list
         ListNode fast = head;
         ListNode slow = head;
 
-        // finding middle of linkedlist using slow and fast pointer
-        while(fast != null && fast.next != null){
-            fast= fast.next.next;
-            slow= slow.next;
+        while (fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
 
-        // reverse the second half
-
+        // Reverse the second half of the linked list
         ListNode prev = null;
         ListNode current = slow.next;
         slow.next = null;
 
-        while(current != null){
+        while (current != null) {
             ListNode next = current.next;
             current.next = prev;
             prev = current;
@@ -85,20 +85,19 @@ class Solution {
         }
 
         // Merge the two halves
-        ListNode sh1 = head;
-        ListNode sh2 = prev;
-        
-        while(sh2 != null){
-            ListNode nexth1 = sh1.next;
-            ListNode nexth2 = sh2.next;
-            sh1.next = sh2;
-            sh2.next = nexth1;
+        ListNode first = head;
+        ListNode second = prev;
 
-            sh1 = nexth1;
-            sh2 = nexth2;
+        while (second != null) {
+            ListNode nextFirst = first.next;
+            ListNode nextSecond = second.next;
+
+            first.next = second;
+            second.next = nextFirst;
+
+            first = nextFirst;
+            second = nextSecond;
         }
-
-        return;
     }
 }
 
