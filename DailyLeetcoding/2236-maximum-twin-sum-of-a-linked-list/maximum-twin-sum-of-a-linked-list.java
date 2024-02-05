@@ -57,25 +57,14 @@ class Solution {
         }
 
         prevS.next = prev;
-        // finding size of linkedlist
-        ListNode temp = head;
-        int size = 0;
-        while(temp != null){
-            size++;
-            temp = temp.next;
-        }
         // finding maximum twin sum
-        temp = head;
-        int maxTSum = 0, twinSum = 0;
-        for(int i = 0; i <= (size / 2) - 1; i++){
-            twinSum = temp.val + prevS.next.val;
-            if(maxTSum < twinSum){
-                maxTSum = twinSum;
-            }
+        ListNode temp = head;
+        int maxTSum = 0;
+        while(prevS.next != null){
+            maxTSum = Math.max(maxTSum, temp.val + prevS.next.val);
             temp = temp.next;
             prevS = prevS.next;
         }
         return maxTSum;
-
     }
 }
