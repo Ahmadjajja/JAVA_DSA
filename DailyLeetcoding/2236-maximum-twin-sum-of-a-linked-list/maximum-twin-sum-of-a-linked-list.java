@@ -34,21 +34,61 @@
 //     }
 // }
 
+// //  Solution-1 
+// // time-complexity : O(n)
+// // space-complexity: O(1)
+// class Solution {
+//     public int pairSum(ListNode head) {
+//         ListNode slow = head, fast = head;
+//         ListNode dumy = new ListNode(0, head);
+//         ListNode prevS = dumy;
+//         while(fast != null && fast.next != null){
+//             slow = slow.next;
+//             fast = fast.next.next;
+//             prevS= prevS.next;
+//         }
+//         // reverse second half of the linkedlist
+//         ListNode prev= null;
+//         while(slow != null){
+//             ListNode next = slow.next;
+//             slow.next = prev;
+//             prev = slow;
+//             slow = next;
+//         }
+
+//         prevS.next = prev;
+//         // finding maximum twin sum
+//         ListNode temp = head;
+//         int maxTSum = 0;
+//         while(prevS.next != null){
+//             maxTSum = Math.max(maxTSum, temp.val + prevS.next.val);
+//             temp = temp.next;
+//             prevS = prevS.next;
+//         }
+//         return maxTSum;
+//     }
+// }
 //  Solution-1 
 // time-complexity : O(n)
 // space-complexity: O(1)
+
+
+
+
+
 class Solution {
     public int pairSum(ListNode head) {
-        ListNode slow = head, fast = head;
-        ListNode dumy = new ListNode(0, head);
-        ListNode prevS = dumy;
+        ListNode fast = head;
+        ListNode slow = head;
+
+        // finding middle of the linkedlist
         while(fast != null && fast.next != null){
-            slow = slow.next;
             fast = fast.next.next;
-            prevS= prevS.next;
+            slow = slow.next;
         }
-        // reverse second half of the linkedlist
-        ListNode prev= null;
+
+        // reversing the second half
+        ListNode prev = null;
         while(slow != null){
             ListNode next = slow.next;
             slow.next = prev;
@@ -56,15 +96,27 @@ class Solution {
             slow = next;
         }
 
-        prevS.next = prev;
-        // finding maximum twin sum
-        ListNode temp = head;
+
         int maxTSum = 0;
-        while(prevS.next != null){
-            maxTSum = Math.max(maxTSum, temp.val + prevS.next.val);
-            temp = temp.next;
-            prevS = prevS.next;
+        while(prev != null){
+            maxTSum = Math.max(maxTSum, prev.val + head.val);
+            prev = prev.next;
+            head = head.next;
         }
+
         return maxTSum;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
