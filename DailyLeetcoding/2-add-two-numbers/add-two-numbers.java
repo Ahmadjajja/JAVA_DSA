@@ -27,7 +27,6 @@ class Solution {
         }
 
         BigInteger ans = new BigInteger(num1.toString()).add(new BigInteger(num2.toString()));
-        System.out.println("ans -> " + ans);
         
         ListNode ansList = new ListNode(ans.mod(BigInteger.TEN).intValue(), null);
         ListNode ansHead = ansList;
