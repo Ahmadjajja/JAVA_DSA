@@ -3,6 +3,11 @@ import java.util.List;
 
 class Solution {
     public List<String> generateParenthesis(int n) {
+
+        // only add open parenthesis if open < n
+        // only add a closing parenthesis if closed < open
+        // valid IIF open == closed == n
+
         List<String> res = new ArrayList<>();
         backtrack(n, 0, 0, new StringBuilder(), res);
         return res;
