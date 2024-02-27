@@ -2,9 +2,12 @@ class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
         # minHeap with K largest integers
+        # creating member funtions of class
         self.minHeap, self.k = nums, k
+        # converting array( minHeap ) to Min Heap that will create the sorted property
         heapq.heapify(self.minHeap)
-        while len(self.minHeap) > k:
+        # It will run in O(n) times, but it could be have more than K elements
+        while len(self.minHeap) > self.k:
             heapq.heappop(self.minHeap)
 
     def add(self, val: int) -> int:
@@ -13,35 +16,3 @@ class KthLargest:
             heapq.heappop(self.minHeap)
         return self.minHeap[0]
 
-        
-
-
-# Your KthLargest object will be instantiated and called as such:
-# obj = KthLargest(k, nums)
-# param_1 = obj.add(val)
-
-
-
-# import java.util.PriorityQueue;
-
-# class KthLargest {
-#     PriorityQueue<Integer> minHeap;
-#     int k;
-
-#     public KthLargest(int k, int[] nums) {
-#         this.k = k;
-#         minHeap = new PriorityQueue<>();
-#         for (int num : nums) {
-#             minHeap.offer(num);
-#             if (minHeap.size() > k)
-#                 minHeap.poll();
-#         }
-#     }
-
-#     public int add(int val) {
-#         minHeap.offer(val);
-#         if (minHeap.size() > k)
-#             minHeap.poll();
-#         return minHeap.peek();
-#     }
-# }
