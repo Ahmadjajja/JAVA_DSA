@@ -17,3 +17,20 @@ class Solution:
                 heapq.heappush(maxHeap, -remainElem)  # Push the remaining stone back into maxHeap
 
         return -maxHeap[0] if len(maxHeap) == 1 else 0
+
+
+
+# sort the array
+1, 2, 3, 4, 5
+
+
+
+
+
+
+
+
+
+
+
+
