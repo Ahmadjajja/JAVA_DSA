@@ -14,7 +14,6 @@ class Solution:
           
           leaves(node.left,leafs)
           leaves(node.right,leafs)
-          print(f'Leaf nodes left to right are {leafs}')
           return leafs 
 
         return leaves(root1,[]) == leaves(root2,[])
