@@ -67,7 +67,7 @@ class Solution:
         if not root:
             return 0
 
-        diameter = [0]
+        diameter = 0
 
         def traverseBinTree(rootNode: Optional[TreeNode]) -> int:
             nonlocal diameter
@@ -78,9 +78,8 @@ class Solution:
             left = traverseBinTree(rootNode.left)
             right = traverseBinTree(rootNode.right)
 
-            diameter[0] = max(diameter[0], left + right)
-
+            diameter = max(diameter, left + right)
             return max(left, right) + 1
         
         traverseBinTree(root)
-        return diameter[0]
+        return diameter
