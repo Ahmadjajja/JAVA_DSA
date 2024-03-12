@@ -13,16 +13,12 @@ class Solution:
         
         if root1 and root2:
             newRoot = TreeNode(root1.val + root2.val)
-            newRoot.left = self.mergeTrees(root1.left, root2.left)
-            newRoot.right = self.mergeTrees(root1.right, root2.right)
         elif root1:
             newRoot = TreeNode(root1.val)
-            newRoot.left = self.mergeTrees(root1.left, None)
-            newRoot.right = self.mergeTrees(root1.right, None)
         else:
             newRoot = TreeNode(root2.val)
-            newRoot.left = self.mergeTrees(None, root2.left)
-            newRoot.right = self.mergeTrees(None, root2.right)
         
+        newRoot.left = self.mergeTrees(root1.left if root1 else None, root2.left if root2 else None)
+        newRoot.right = self.mergeTrees(root1.right if root1 else None, root2.right if root2 else None)
 
         return newRoot
