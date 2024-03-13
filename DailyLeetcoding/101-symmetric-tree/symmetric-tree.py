@@ -9,35 +9,15 @@ class Solution:
         if not root.right and not root.left:
             return True
 
-        leftList = []
-        rightList = []
 
-        def traverseLeft(node: Optional[TreeNode]) -> list:
-            nonlocal leftList
-            # base case
-            if not node:
-                leftList.append(None)
-                return 
+        def traverse(left: Optional[TreeNode], right: Optional[TreeNode]) -> bool:
+            if not left and not right:
+                return True
+
+            if not left or not right:
+                return False
             
-            leftList.append(node.val)
-
-            traverseLeft(node.left)
-            traverseLeft(node.right)
+            return left.val == right.val and traverse(left.left, right.right) and traverse(left.right, right.left)
             
-        def traverseRight(node: Optional[TreeNode]) -> list:
-            nonlocal rightList
-            # base case
-            if not node:
-                rightList.append(None)
-                return 
-            
-            rightList.append(node.val)
 
-            traverseRight(node.right)
-            traverseRight(node.left)
-        
-
-        traverseLeft(root.left)
-        traverseRight(root.right)
-
-        return leftList == rightList
+        return traverse(root.left, root.right)
