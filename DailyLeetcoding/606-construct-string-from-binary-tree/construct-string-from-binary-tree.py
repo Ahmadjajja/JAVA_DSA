@@ -6,26 +6,33 @@
 #         self.right = right
 class Solution:
     def tree2str(self, root: Optional[TreeNode]) -> str:
-        ansList = []
-        def traverse(cur):
-            nonlocal ansList
+        ansString = []
+
+
+        def traverseDFS(cur: Optional[TreeNode]):
+            nonlocal ansString
+
 
             if cur:
-                ansList.append(str(cur.val))
+                ansString.append(str(cur.val))
             
             # base condition
             if not cur:
                 return
+
+    
             
-            if cur.left or cur.right:
-                ansList.append("(")
-                traverse(cur.left)
-                ansList.append(")")
-                
+            if cur.right or cur.left:
+                ansString.append("(")
+                traverseDFS(cur.left)
+                ansString.append(")")  
                 if cur.right:
-                    ansList.append("(")
-                    traverse(cur.right)
-                    ansList.append(")")
-        
-        traverse(root)
-        return "".join(ansList)
+                    ansString.append("(")
+                    traverseDFS(cur.right)
+                    ansString.append(")")
+            
+        traverseDFS(root)
+
+        return "".join(ansString)
+
+
