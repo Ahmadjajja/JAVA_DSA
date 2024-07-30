@@ -26,7 +26,8 @@ class Solution:
 
         for i in  range(32):
 
-            bit = (n >> i) & 1
+            bit = (n >> i) & 1 # right shift by i time
+            # bit << (31 - i) -> moves bit to right side according to the i location
             
             res = res + (bit << (31 - i))
 
