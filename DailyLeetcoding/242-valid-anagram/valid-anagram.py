@@ -1,6 +1,6 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        
+
         def countFrequency(word):
             f = {} # hashmap
             for ch in word:
@@ -11,4 +11,7 @@ class Solution:
             return f
 
         return countFrequency(s) == countFrequency(t)
+
+        # TC: O(n)
+        # SC: O(n)
         
