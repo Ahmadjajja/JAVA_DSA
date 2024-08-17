@@ -32,13 +32,10 @@ class Solution:
             ch = s[r]
             countF[ch] = 1 + countF.get(ch, 0)
 
-            maxC = max(countF.values())
-
             
-            while (r - l + 1) - maxC > k:
+            while (r - l + 1) - max(countF.values()) > k:
                 countF[s[l]] -= 1
                 l += 1
-                maxC = max(countF.values())
             
             ans = max(ans, r - l + 1)
             
