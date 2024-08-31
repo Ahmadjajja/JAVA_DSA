@@ -6,22 +6,25 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if not root:
-            return 0
-        
-        maxLen = 0
+        depth = 0
+        ans = 0
 
-        def maxDep(sRoot: Optional[TreeNode], counter):
-            nonlocal maxLen
+        def dep(node):
+            nonlocal depth
+            nonlocal ans
 
-            # base case
-            if not sRoot:
-                maxLen = max(maxLen, counter)
+            if not node:
+                ans = max(ans, depth)
                 return
             
-            maxDep(sRoot.left, counter + 1)
-            maxDep(sRoot.right, counter + 1)
-        
-        maxDep(root, 0)
+            depth += 1
+            
+            dep(node.left)
+            dep(node.right)
 
-        return maxLen
+            depth -= 1
+
+        dep(root)
+
+        return ans
+        
