@@ -13,9 +13,6 @@ class Solution:
             if not node:
                 return
             
-            # if level not in hashmap:
-            #     hashmap[level] = []
-            
             hashmap[level].append(node.val)
 
             dfs(node.left, level + 1)
