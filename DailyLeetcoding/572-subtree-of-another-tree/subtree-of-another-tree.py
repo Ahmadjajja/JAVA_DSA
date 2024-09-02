@@ -4,37 +4,25 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        subTree = False
+        if not subRoot:
+            return True
+        if not root:
+            return False
 
-        def isSameTree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-            # base case 
-            if not p or not q:
-                if not p and not q:
-                    return True
-                else:
-                    return False
-            
-            if p.val != q.val:
-                return False
-                
-            return isSameTree(p.left, q.left) and isSameTree(p.right, q.right)
+        if root.val == subRoot.val and self.isSameTree(root,subRoot):
+            return True
+        
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+    
+    def isSameTree(self, r, s):
+        if not r and not s:
+            return True
+        if not r or not s or r.val != s.val:
+            return False
+        
+        return self.isSameTree(r.left, s.left) and self.isSameTree(r.right, s.right) 
 
-        def traverseOuterTree(mRoot: Optional[TreeNode]):
-            nonlocal subTree
 
-            if not mRoot:
-                return
-            
-            if subTree == False and isSameTree(mRoot, subRoot):
-                subTree = True
-            elif subTree == False:
-                traverseOuterTree(mRoot.left)
-                if subTree == False:
-                    traverseOuterTree(mRoot.right)
 
-        traverseOuterTree(root)
-
-        return subTree
