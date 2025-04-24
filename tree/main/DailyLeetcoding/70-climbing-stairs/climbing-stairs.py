@@ -1,23 +1,21 @@
+# class Solution:
+#     def climbStairs(self, n: int) -> int:
+#         def helper(stepCounter):
+#             if stepCounter == n:
+#                 return 1
+#             if stepCounter > n:
+#                 return 0
+#             return helper(stepCounter + 1) + helper(stepCounter + 2)
+
+#         return helper(0)
+
 class Solution:
     def climbStairs(self, n: int) -> int:
-        dp = [-1] * (n + 1)
-        def waysFinder(num):
-            if num == n:
-                dp[num] = 1
-                return 1
-            if num > n:
-                return 0
+        one, two = 1, 1
 
-            if dp[num] != -1:
-                return dp[num]
-
-            ct1 = waysFinder(num + 1)
-            ct2 = waysFinder(num + 2)
-
-            dp[num] = ct1 + ct2
-            return ct1 + ct2
+        for i in range(n - 1):
+            temp = one
+            one = one + two
+            two = temp
         
-        return waysFinder(0)
-        
-
-        
+        return one
