@@ -3,20 +3,20 @@ class Solution:
         memo = {}
 
         def helper(remainingAmount):
+
+            if remainingAmount in memo:
+                return memo[remainingAmount]
             if remainingAmount == 0:
-                memo[remainingAmount] = 0
                 return 0
             if remainingAmount < 0:
                 return -1
+
             minCoin = amount + 1
             for i in range(len(coins)):
-                if (remainingAmount - coins[i]) not in memo:
-                    res = helper(remainingAmount - coins[i])
-                else:
-                    res = memo[remainingAmount - coins[i]]
-                    
+                res = helper(remainingAmount - coins[i])
                 if res != -1:
                     minCoin = min(minCoin, res + 1)
+
             memo[remainingAmount] = minCoin if minCoin != amount + 1 else -1
             return memo[remainingAmount]
 
