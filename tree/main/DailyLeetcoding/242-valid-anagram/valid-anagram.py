@@ -1,16 +1,22 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        s_hashmap = {}
-        t_hashmap = {}
-
+        if len(s) != len(t):
+            return False
+        
+        hashmap1 = {}
+        hashmap2 = {}
+        
         for ch in s:
-            if ch in s_hashmap:
-                s_hashmap[ch] += 1 # just incrementing the value if this propertly already found in dict.
+            if ch in hashmap1:
+                hashmap1[ch] += 1
             else:
-                s_hashmap[ch] = 1 # adding this property first time in dictionary
+                hashmap1[ch] = 1
+
         for ch in t:
-            if ch in t_hashmap:
-                t_hashmap[ch] += 1 # just incrementing the value if this propertly already found in dict.
+            if ch in hashmap2:
+                hashmap2[ch] += 1
             else:
-                t_hashmap[ch] = 1 # adding this property first time in dictionary
-        return s_hashmap == t_hashmap
+                hashmap2[ch] = 1
+        
+        return hashmap1 == hashmap2
+
