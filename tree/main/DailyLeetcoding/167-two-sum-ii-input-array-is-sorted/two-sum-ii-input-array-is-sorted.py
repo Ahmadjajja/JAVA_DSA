@@ -4,13 +4,13 @@ class Solution:
 
         while left < right:
 
-            if numbers[left] + numbers[right] > target:
+            while numbers[left] + numbers[right] > target:
                 right -= 1
-                continue
-            elif numbers[left] + numbers[right] < target:
+            
+            while numbers[left] + numbers[right] < target:
                 left += 1
-                continue
-            else:
+                
+            if numbers[left] + numbers[right] == target:
                 return [left + 1, right + 1]
         
         return []
