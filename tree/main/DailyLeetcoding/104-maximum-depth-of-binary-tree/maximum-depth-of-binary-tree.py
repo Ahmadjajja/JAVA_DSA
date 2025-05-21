@@ -23,7 +23,23 @@ class Solution:
 
         # return res
 
-        if not root:
-            return 0
+        # if not root:
+        #     return 0
         
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        # return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
+        q = deque()
+        q.append([root, 1])
+        res = 0
+
+        while q:
+
+            popedElement, depth = q.popleft()
+            if popedElement:
+
+                q.append([popedElement.left, depth + 1])
+                q.append([popedElement.right, depth + 1])
+
+                res = max(res, depth)
+        
+        return res
