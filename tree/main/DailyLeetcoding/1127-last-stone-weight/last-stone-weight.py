@@ -9,10 +9,9 @@ class Solution:
             y = abs(heapq.heappop(minHeap))
             x = abs(heapq.heappop(minHeap))
 
-            if x != y:
-                heapq.heappush(minHeap, -(y - x))
-            else:
-                heapq.heappush(minHeap, 0)
+            
+            heapq.heappush(minHeap, -(y - x))
+            
         return abs(minHeap[0])
 
         
