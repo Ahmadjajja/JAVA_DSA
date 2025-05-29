@@ -1,29 +1,28 @@
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
-        # dynamic programming solution
-        cost.append(0)
+        memo = {}
+        n = len(cost) - 1
 
-        for i in range(len(cost) - 3, -1, -1):
-            cost[i] += min(cost[i + 1], cost[i + 2])
-        
-        return min(cost[0], cost[1])
+        def DFS(index):
 
-        # # let's create a cache to store repeated recursion calls
-        # cache = [-1] * (len(cost) + 1)
-
-        # def helper(index):
-
-        #     if index >= len(cost):
-        #         return 0
+            if index == n:
+                return cost[index]
             
-        #     if cache[index] != -1:
-        #         return cache[index]
+            if index > n:
+                return 0
+            
+            if index in memo:
+                return memo[index]
+            
+            leftAns = DFS(index + 1)
 
-        #     cache[index] = cost[index] + min(helper(index + 1), helper(index + 2))
+            rightAns = DFS(index + 2)
 
-        #     return cache[index]
+            memo[index] = cost[index] + min(leftAns, rightAns)
 
-        # return min(helper(0), helper(1))
+            return memo[index]
+
+        return min(DFS(0), DFS(1))
 
 
 
