@@ -11,8 +11,6 @@ class Solution:
                 temp = matrix[i][j]
                 matrix[i][j] = matrix[j][i]
                 matrix[j][i] = temp
-        
-        print(matrix)
 
         for i in range(len(matrix)):
             for j in range(len(matrix) // 2):
@@ -20,6 +18,5 @@ class Solution:
                 matrix[i][j] = matrix[i][-(j + 1)]
                 matrix[i][-(j + 1)] = temp
         
-        print("final matrix: ", matrix)
 
         
