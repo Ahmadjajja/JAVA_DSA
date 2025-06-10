@@ -19,6 +19,9 @@ class Solution:
 
         return list(ans.values())
 
+# TC = O(N) * k log(k)
+# SC = O(N) * O(k)
+
 
 
 
