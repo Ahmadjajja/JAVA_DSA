@@ -9,8 +9,6 @@ class Solution:
                     tempHM[ch] += 1
                 else:
                     tempHM[ch] = 1
-            
-            print("tempHM : ", tempHM)
 
             key = tuple(sorted(tempHM.items()))
             if key in ans:
@@ -18,7 +16,6 @@ class Solution:
             else:
                 ans[key] = [s]
         
-        print("ans : ", ans)
 
         return list(ans.values())
 
