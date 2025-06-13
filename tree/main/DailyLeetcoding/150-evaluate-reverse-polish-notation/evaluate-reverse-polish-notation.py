@@ -9,15 +9,16 @@ class Solution:
             if token != "+" and token != "-" and token != "/" and token != "*":
                 stack.append(token)
             else:
-                second = stack.pop()
-                first = stack.pop()
+                second = int(stack.pop())
+                first = int(stack.pop())
 
                 if token == "+":
-                    stack.append(int(first) + int(second))
+                    stack.append(first + second)
                 elif token == "-":
-                    stack.append(int(first) - int(second))
+                    stack.append(first - second)
                 elif token == "/":
-                    stack.append(int(first) / int(second))
+                    stack.append(first / second)
                 else :
-                    stack.append(int(first) * int(second))
+                    stack.append(first * second)
+                    
         return int(stack[0])     
