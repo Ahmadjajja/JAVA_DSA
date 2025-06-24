@@ -12,15 +12,15 @@ class Solution:
         
         oldToNew = {}
 
-        def DFS(clone):
+        def DFS(node):
 
-            if clone in oldToNew:
-                return oldToNew[clone]
+            if node in oldToNew:
+                return oldToNew[node]
 
-            copy = Node(clone.val)
-            oldToNew[clone] = copy
+            copy = Node(node.val)
+            oldToNew[node] = copy
 
-            for neighbor in clone.neighbors:
+            for neighbor in node.neighbors:
                 copy.neighbors.append(DFS(neighbor))
             
             return copy
