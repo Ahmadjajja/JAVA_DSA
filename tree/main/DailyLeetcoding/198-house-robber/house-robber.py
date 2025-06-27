@@ -1,12 +1,27 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        nums.append(0)
-        nums.append(0)
+        if len(nums) == 1 or len(nums) == 2:
+            return max(nums)
 
-        [2,7,9,3,1],0,0
+        memo = {}
 
-        for i in range(len(nums) - 4, -1, -1):
-            nums[i] += max(nums[i + 2], nums[i + 3])
+        def DFS(index):
+            if index >= len(nums):
+                return 0
+            
+            if index in memo:
+                return memo[index]
+            
+            left = DFS(index + 2)
+            right = DFS(index + 3)
+
+            ans = max(left, right) + nums[index]
+            memo[index] = ans
+
+            return ans
+
+
+
         
-        return max(nums[0], nums[1])
+        return max(DFS(0), DFS(1))
         
