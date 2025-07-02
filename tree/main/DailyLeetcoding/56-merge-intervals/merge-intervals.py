@@ -11,7 +11,7 @@ class Solution:
                 prevEnd = end
                 ans.append([start, end])
             else:
-                maxV = max(start, end, prevEnd)
+                maxV = max(end, prevEnd)
                 ans[len(ans) - 1][1] = maxV
                 prevEnd = maxV
 
