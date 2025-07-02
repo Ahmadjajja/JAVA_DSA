@@ -11,12 +11,10 @@ class Solution:
             if start >= prevEnd:
 
                 prevEnd = end
-                
+
             else:
 
                 res += 1
-
-                # main point...
 
                 prevEnd = min(end, prevEnd)
 
