@@ -4,19 +4,16 @@ class Solution:
 
 
         while n != 1:
-            print("n : ", n)
 
             if n in checkDuplicate:
                 return False
 
             checkDuplicate.add(n)
 
+            num = str(n)
             nextNum = 0
-            num = n
-            while num:
-
-                nextNum += (num % 10) ** 2
-                num = num // 10
+            for ch in num:
+                nextNum += int(ch) * int(ch)
             
             n = nextNum
 
