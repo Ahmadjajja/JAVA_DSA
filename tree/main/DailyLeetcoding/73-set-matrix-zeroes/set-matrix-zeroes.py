@@ -3,24 +3,25 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        q = []
+        zerosIndices = []
+        rows = len(matrix)
+        cols = len(matrix[0])
 
 
-        for row in range(len(matrix)):
-            for col in range(len(matrix[0])):
+        for row in range(rows):
+            for col in range(cols):
                 if matrix[row][col] == 0:
-                    q.append([row, col])
+                    zerosIndices.append([row, col])
 
-        for n in q:
+        for n in zerosIndices:
             # make row to zeros...
-            for row in range(len(matrix)):
+            for row in range(rows):
                 if row != n[0]:
                     matrix[row][n[1]] = 0
-            # make row to zeros...
-            for col in range(len(matrix[0])):
+            # make col to zeros...
+            for col in range(cols):
                 if col != n[1]:
                     matrix[n[0]][col] = 0
 
-            # make col to zeros...
 
         
