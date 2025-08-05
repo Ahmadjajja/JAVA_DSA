@@ -9,7 +9,7 @@ class Solution:
                         return False
                     rowCheck.add(board[r][c])
         
-        # check rule 2: check this row
+        # check rule 2: check this col
         for c in range(9):
             colCheck = set()
             for r in range(9):
