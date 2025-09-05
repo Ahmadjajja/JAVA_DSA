@@ -1,36 +1,36 @@
-from typing import List
-
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
-        if not board:
-            return
+        ROWS, COLS = len(board), len(board[0])
 
-        rows, cols = len(board), len(board[0])
-        visited = set()
-        directions = [[-1, 0], [1, 0], [0, -1], [0, 1]]
+        def capture(r, c):
+            if (r < 0 or c < 0 or r == ROWS or
+                c == COLS or board[r][c] != "O"
+            ):
+                return
+            board[r][c] = "T"
+            
+            dirArr = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+            for dr, dc in dirArr:
+                capture(r + dr, c + dc)
 
-        def dfs(r, c):
-            visited.add((r, c))
-            for delR, delC in directions:
-                nr, nc = r + delR, c + delC
-                if 0 <= nr < rows and 0 <= nc < cols and (nr, nc) not in visited and board[nr][nc] == "O":
-                    dfs(nr, nc)
+        for r in range(ROWS):
+            for c in range(COLS):
+                if board[r][c] == "O" and ( r in [0, ROWS - 1] or c in [0, COLS - 1] ):
+                    capture(r, c)
 
-        # Run DFS from the "O"s on the borders
-        for i in range(rows):
-            if board[i][0] == "O":
-                dfs(i, 0)
-            if board[i][cols - 1] == "O":
-                dfs(i, cols - 1)
+        for c in range(COLS):
+            if board[0][c] == "O":
+                capture(0, c)
+            if board[ROWS - 1][c] == "O":
+                capture(ROWS - 1, c)
 
-        for j in range(cols):
-            if board[0][j] == "O":
-                dfs(0, j)
-            if board[rows - 1][j] == "O":
-                dfs(rows - 1, j)
+        for r in range(ROWS):
+            for c in range(COLS):
+                if board[r][c] == "O":
+                    board[r][c] = "X"
+                elif board[r][c] == "T":
+                    board[r][c] = "O"
 
-        # Flip all unvisited "O"s to "X"s
-        for i in range(rows):
-            for j in range(cols):
-                if (i, j) not in visited and board[i][j] == "O":
-                    board[i][j] = "X"
+
+# 1. adjcensy list
+# 2. directions array [(0, 1), (1, 0), (0, -1), (-1, 0)]
