@@ -37,6 +37,8 @@ class Solution:
         # return ans
 
         # even better approach
+        # 3. TC: O(n), SC: O(n)
+
         hm = {}
         for i in range(len(nums)):
             diff = target - nums[i]
