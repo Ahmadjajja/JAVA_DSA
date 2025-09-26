@@ -11,9 +11,8 @@ class Solution:
         # return [-1, -1]
 
         # optimized approach
-
+        # 2. TC: O(nlogn + n + n) = O(nlogn), SC: O(n)
         sortedNums = sorted(nums)
-
         num1, num2 = 0,  0
 
         s, e = 0, len(nums) - 1
