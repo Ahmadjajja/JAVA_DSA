@@ -38,7 +38,6 @@ class Solution:
 
         # even better approach
         hm = {}
-
         for i in range(len(nums)):
             diff = target - nums[i]
             if nums[i] in hm:
