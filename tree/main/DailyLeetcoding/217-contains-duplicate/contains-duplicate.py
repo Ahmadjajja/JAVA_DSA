@@ -1,14 +1,12 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        # 1. empty list
-        # 2. for loop
-        # 3. 
-        
-        hashmap = set()
-
-        for n in nums:
-            if n in hashmap:
+        # 1. TC: O(n), SC: O(n)
+        uniqueNums = set()
+        for num in nums:
+            if num in uniqueNums:
                 return True
-            hashmap.add(n)
+            
+            uniqueNums.add(num)
         
         return False
+        
