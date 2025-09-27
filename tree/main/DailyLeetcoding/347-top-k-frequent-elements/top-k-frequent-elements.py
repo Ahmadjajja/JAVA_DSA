@@ -1,23 +1,27 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        # store counts in hashmap
-        counts = {}
-        for n in nums:
-            if n not in counts:
-                counts[n] = 1
-            else:
-                counts[n] += 1
+        nums.sort()
+
+        heap = []
+        heapq.heapify(heap)
+
+        count = 0
+        for i in range(len(nums)):
+            if i + 1 < len(nums) and nums[i] == nums[i + 1]:
+                count += 1
+            elif i + 1 == len(nums) or nums[i] != nums[i + 1]:
+                heapq.heappush(heap, (count + 1, nums[i]))
+                count = 0
+
+        print("heap before popping: ", heap)
+        while len(heap) > k:
+            heapq.heappop(heap)
+        print("heap: ", heap)
         
-
-        # create a maxheap
-        maxheap = []
-
-        for key, value in counts.items():
-            heapq.heappush(maxheap, (-value, key))
-        # pop k elements and store in ans arr
         ans = []
-        for i in range(k):
-            ans.append(heapq.heappop(maxheap)[1])
-        # return ans
+
+        for freq, elem in heap:
+            ans.append(elem)
+
         return ans
         
