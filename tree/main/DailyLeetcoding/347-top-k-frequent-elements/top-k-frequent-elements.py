@@ -12,11 +12,9 @@ class Solution:
             elif i + 1 == len(nums) or nums[i] != nums[i + 1]:
                 heapq.heappush(heap, (count + 1, nums[i]))
                 count = 0
-
-        print("heap before popping: ", heap)
+                
         while len(heap) > k:
             heapq.heappop(heap)
-        print("heap: ", heap)
         
         ans = []
 
