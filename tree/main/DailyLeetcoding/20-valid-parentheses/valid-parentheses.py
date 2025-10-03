@@ -1,12 +1,13 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         p = {
-            ")":"(",
-            "}":"{",
-            "]":"["
+            ")": "(",
+            "}": "{",
+            "]": "["
         }
 
         stack = []
+
         for ch in s:
             if ch in p:
                 if stack and stack[-1] == p[ch]:
@@ -15,5 +16,6 @@ class Solution:
                     return False
             else:
                 stack.append(ch)
+
+        return not stack
         
-        return True if not stack else False
