@@ -18,7 +18,7 @@ class Solution:
             
             memo[curAmount] = 1 + minCoins
             
-            return 1 + minCoins
+            return memo[curAmount]
 
 
         ans = dfs(amount)
