@@ -1,20 +1,25 @@
 class Solution:
     def countSubstrings(self, st: str) -> int:
-        totalPalSubStr = 0
-
+        count = 0
         for i in range(len(st)):
-            # Odd length palindromes
-            l, r = i, i
-            while l >= 0 and r < len(st) and st[l] == st[r]:
-                totalPalSubStr += 1
+            count += 1
+
+            # check for odd 
+            l, r = i - 1, i + 1
+
+            while 0 <= l < len(st) and 0 <= r < len(st) and st[l] == st[r]:
+                count += 1
                 l -= 1
                 r += 1
 
-            # Even length palindromes
+            # check for even
             l, r = i, i + 1
-            while l >= 0 and r < len(st) and st[l] == st[r]:
-                totalPalSubStr += 1
+
+            while 0 <= l < len(st) and 0 <= r < len(st) and st[l] == st[r]:
+                count += 1
                 l -= 1
                 r += 1
+        
+        return count
 
-        return totalPalSubStr
+
