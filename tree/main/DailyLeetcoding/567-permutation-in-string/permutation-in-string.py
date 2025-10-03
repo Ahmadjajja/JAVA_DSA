@@ -2,37 +2,32 @@ class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2):
             return False
-            
-        alphFre = [0] * 26
-        subFre = [0] * 26
 
-        for i in range(len(s1)):
-            index1 = ord(s1[i]) - 97 
-            index2 = ord(s2[i]) - 97 
-            alphFre[index1] += 1
-            subFre[index2] += 1
+        s1Freq = [0] * 26
+        s2windowFreq = [0] * 26
 
+        l, r = 0, len(s1) - 1
+
+        for i in range(r + 1):
+            s1Freq[ord(s1[i]) - ord('a')] += 1
+            s2windowFreq[ord(s2[i]) - ord('a')] += 1
         
-        l = 0
-        r = len(s1) 
+        r += 1
+        
+        while r < len(s2):
 
-        while r <= len(s2):
-            # print("alphFre : ", alphFre)
-            # print("subFre : ", subFre)
-            # print("subStr : ", s2)
-            if subFre == alphFre:
+            if s1Freq == s2windowFreq:
                 return True
-            if r < len(s2):
-                indexRight = ord(s2[r]) - 97 
-                indexLeft = ord(s2[l]) - 97
             
-                subFre[indexRight] += 1
-                subFre[indexLeft] -= 1
-            
+            s2windowFreq[ord(s2[l]) - ord('a')] -= 1
+            s2windowFreq[ord(s2[r]) - ord('a')] += 1
             l += 1
             r += 1
+        if s1Freq == s2windowFreq:
+                return True
         
         return False
+
 
 
         
