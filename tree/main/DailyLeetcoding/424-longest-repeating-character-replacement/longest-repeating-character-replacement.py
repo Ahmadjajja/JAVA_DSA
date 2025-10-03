@@ -1,26 +1,25 @@
-from collections import Counter
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        i, j = 0, 0
-        ans = 0
-        fc = [0 for i in range(26)]
-        fc[ord(s[0]) - ord('A')] += 1
 
-        while j < len(s):
-            twl = j - i + 1 
+        count, maxCount = 0, 0
+        freq = [0] * 26
 
-            maxFreqElement = max(fc)
-            
-            if twl - maxFreqElement <= k:
-                j += 1
-                ans = max(ans, twl)
-                if j == len(s):
-                    break
-                fc[ord(s[j]) - ord('A')] += 1
+        l, r = 0, 0
 
-            else:
-                fc[ord(s[i]) - ord('A')] -= 1
-                i += 1
-        
-        return ans
-        
+        while r < len(s):
+            # include s[r] first
+            freq[ord(s[r]) - ord('A')] += 1
+
+            # shrink while more than k replacements are needed
+            while (r - l + 1) - max(freq) > k:
+                freq[ord(s[l]) - ord('A')] -= 1
+                l += 1
+
+            # update window length and answer
+            count = r - l + 1
+            if count > maxCount:
+                maxCount = count
+
+            r += 1
+
+        return maxCount
