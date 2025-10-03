@@ -41,6 +41,14 @@
 <p><strong>Output:</strong> <span class="example-io">true</span></p>
 </div>
 
+<p><strong class="example">Example 5:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">s = &quot;([)]&quot;</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">false</span></p>
+</div>
+
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
